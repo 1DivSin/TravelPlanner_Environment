@@ -1,0 +1,3 @@
+interface:
+  display_name: "TravelPlanner"
+  short_description: "Plan benchmark trips with local TravelPlanner data"

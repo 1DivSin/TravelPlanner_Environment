@@ -1,0 +1,28 @@
+[
+  {
+    "attempt": 1,
+    "returncode": 1,
+    "elapsed_seconds": 322.1699673058465,
+    "response_sha256": "00f0f22a2eb2fa00bc6dce7d70f36f7b31e666bc8a21b00f25ea2471938b9feb",
+    "validation_errors": [
+      "channel exit code 1"
+    ],
+    "process_failure": true,
+    "retry_eligible": true,
+    "retry_reason": "channel exit code 1",
+    "workflow_detected": true
+  },
+  {
+    "attempt": 2,
+    "returncode": 0,
+    "elapsed_seconds": 200.34713654383086,
+    "response_sha256": "78f289f415ab7b1177e6b745ec1b04fa9deeac26cc24a51bab85f41c2036ac7e",
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ],
+    "process_failure": false,
+    "retry_eligible": false,
+    "retry_reason": null,
+    "workflow_detected": true
+  }
+]

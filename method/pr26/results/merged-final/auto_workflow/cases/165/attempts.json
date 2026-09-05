@@ -1,0 +1,20 @@
+[
+  {
+    "attempt": 1,
+    "returncode": 0,
+    "elapsed_seconds": 336.3581620508339,
+    "response_sha256": "64f727da8573a35a2075d915ab87f4a35374e819a9a0977d74fea32db46d77c6",
+    "validation_errors": [
+      "top-level object is missing keys ['idx', 'query']",
+      "top-level object has unexpected keys ['answer', 'parse_warning']",
+      "top-level idx must equal 165",
+      "top-level query must exactly reproduce the user query",
+      "plan must be a non-empty list",
+      "agent returned without a generated workflow source"
+    ],
+    "process_failure": false,
+    "retry_eligible": false,
+    "retry_reason": null,
+    "workflow_detected": false
+  }
+]

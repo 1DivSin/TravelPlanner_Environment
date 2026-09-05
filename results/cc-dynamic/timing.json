@@ -1,0 +1,14 @@
+﻿{
+    "run_id":  "retry17-dynamic-20260831-233258",
+    "mode":  "three_parallel_shards_real_dynamic_workflow_retry",
+    "selected_queries":  30,
+    "retry_segment_queries":  17,
+    "retry_segment_success":  17,
+    "started_local":  "2026-08-31T23:32:59.9594472+08:00",
+    "finished_local":  "2026-09-01T00:22:25.5776241+08:00",
+    "retry_elapsed_seconds":  2965.612292,
+    "previous_elapsed_seconds":  6506.4,
+    "total_compute_elapsed_seconds":  9472.012292,
+    "total_cost_usd":  52.065332,
+    "status":  "completed"
+}

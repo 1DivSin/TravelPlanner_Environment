@@ -1,13 +1,12 @@
-# CC direct-MCP environment
+# 纯 CC 直连 MCP 环境
 
-This is the pure CC baseline from the `cc+旧` session. Each validation query
-runs in a fresh Claude Code process and may call only the TravelPlanner MCP
-tools. It does not use Workflow, `agent()`, `parallel()`, `pipeline()`, or
-any other orchestration.
+这是 `cc+旧` 会话中的纯 CC 基线。每道 validation 题都会启动一个新的
+Claude Code 主进程，只允许调用 TravelPlanner MCP 工具，不使用 Workflow、
+`agent()`、`parallel()`、`pipeline()` 或其他编排方式。
 
-## Claude Code invocation
+## Claude Code 启动参数
 
-`runner.py` keeps the baseline prompt in one place and launches:
+`runner.py` 集中保存基线提示词，并使用以下参数启动 Claude Code：
 
 ```text
 --output-format stream-json
@@ -22,13 +21,13 @@ any other orchestration.
 -p
 ```
 
-There is no `--max-budget-usd` and no other forced budget limit. The prompt
-contains no Dynamic/Workflow/Ultracode routing cue; every plan fact must come
-from the MCP response and the final response must be one JSON object.
+不设置 `--max-budget-usd`，也不设置其他强制预算上限。提示词不包含
+Dynamic、Workflow 或 Ultracode 路由词；计划中的事实必须来自 MCP 返回值，
+最终输出必须是一个 JSON 对象。
 
-## Environment
+## 环境变量
 
-| Variable | Value or source |
+| 变量 | 值或来源 |
 | --- | --- |
 | `ANTHROPIC_BASE_URL` | `https://penguinapi.org` |
 | `ANTHROPIC_API_BASE` | `https://penguinapi.org` |
@@ -37,27 +36,24 @@ from the MCP response and the final response must be one JSON object.
 | `ANTHROPIC_DEFAULT_HAIKU_MODEL` | `claude-haiku-4-5` |
 | `CLAUDE_CODE_DISABLE_WORKFLOWS` | `1` |
 | `CLAUDE_CODE_DISABLE_NATIVE_AUTH` | `1` |
-| `ANTHROPIC_AUTH_TOKEN` / `ANTHROPIC_API_KEY` | Read from the local key file, selected by gateway preflight |
-| `CLAUDE_CONFIG_DIR` | Unique `runs/<run-id>/claude-config/<idx>/attempt-N` |
-| `TEMP`, `TMP` | Unique `runs/<run-id>/temp/<idx>/attempt-N` |
-| `TRAVELPLANNER_GATEWAY_KEY_FILE` | Optional override; default is `D:\Downloads\penguin_win_bq.txt` |
+| `ANTHROPIC_AUTH_TOKEN` / `ANTHROPIC_API_KEY` | 由网关预检结果选择，并从本地密钥文件读取 |
+| `CLAUDE_CONFIG_DIR` | 每题独立的 `runs/<run-id>/claude-config/<idx>/attempt-N` |
+| `TEMP`、`TMP` | 每题独立的 `runs/<run-id>/temp/<idx>/attempt-N` |
+| `TRAVELPLANNER_GATEWAY_KEY_FILE` | 可选覆盖；默认是 `D:\Downloads\penguin_win_bq.txt` |
 
-The runner caps outer concurrency at three. Every query gets its own
-model-visible worktree, config directory, temporary directory, and up to
-three independent attempts. Only the MCP server, the runner, the TravelPlanner
-tools/utilities, the 180-query input, and the MCP-required database files are
-copied or linked into that worktree.
+外层并发上限为 3。每道题都有独立的模型可见工作目录、配置目录、临时目录，
+最多进行三次独立尝试。复制或链接到该目录的内容仅包括 MCP 服务、runner、
+TravelPlanner 工具/工具函数、180 题输入，以及 MCP 实际需要的数据库文件。
 
-## Local setup
+## 本地准备
 
-The repository intentionally does not commit the roughly 342 MB database.
-Populate `TravelPlanner/database/` from the same TravelPlanner checkout used by
-the recorded run, and install `experiment/requirements.lock.txt` with `uv`.
-The committed `TravelPlanner/tools/`, `TravelPlanner/utils/`, and
-`TravelPlanner/postprocess/example_evaluation.jsonl` files document the code
-and query-set boundary.
+仓库不提交约 342 MB 的数据库。请从记录实验使用的 TravelPlanner checkout
+准备 `TravelPlanner/database/`，并使用 `uv` 安装
+`experiment/requirements.lock.txt`。仓库中保留的 `TravelPlanner/tools/`、
+`TravelPlanner/utils/` 和 `TravelPlanner/postprocess/example_evaluation.jsonl`
+用于固定代码和题集边界。
 
-Run a full attempt with:
+运行完整尝试：
 
 ```powershell
 $env:PYTHONPATH = "experiment"
@@ -67,10 +63,9 @@ uv run python experiment/cc_pure/runner.py `
   --concurrency 3
 ```
 
-The runner uses `TRAVELPLANNER_GATEWAY_KEY_FILE` when set, otherwise its
-documented local default; pass `--key-file <path>` when an explicit path is
-preferred.
+设置 `TRAVELPLANNER_GATEWAY_KEY_FILE` 时，runner 会使用该路径；否则使用上面
+记录的本地默认路径。也可以显式传入 `--key-file <path>`。
 
-The runner writes `attempts.jsonl`, `timing.json`, `gateway.json`, and
-checkpoint score/failure files under `runs/<run-id>/`. Credentials are removed
-from child environments and redacted from persisted errors.
+runner 会在 `runs/<run-id>/` 下写入 `attempts.jsonl`、`timing.json`、
+`gateway.json` 和各 checkpoint 的评分/失败文件。子进程环境会清理凭据，持久化
+错误信息也会脱敏。

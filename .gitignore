@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Local TravelPlanner data is large and contains the run-time database.
+TravelPlanner/database/
+TravelPlanner/.cache/
+
+# Credentials and live run output never belong in Git.
+*.key
+*.token
+runs/
+downloads/

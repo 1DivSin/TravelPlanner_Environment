@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "travelplanner": {
+      "type": "stdio",
+      "command": "python",
+      "args": [
+        "experiment\\mcp_server.py"
+      ],
+      "env": {
+        "TRAVELPLANNER_ROOT": "TravelPlanner",
+        "FASTMCP_LOG_LEVEL": "WARNING"
+      }
+    }
+  }
+}

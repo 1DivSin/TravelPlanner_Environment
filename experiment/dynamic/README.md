@@ -1,10 +1,12 @@
-# CC Dynamic Workflow experiment
+# CC Dynamic Workflow 实验环境
 
-This repository's Claude Code experiment is the Dynamic Workflow variant. `CC` names the execution host; it is not a separate non-workflow baseline.
+这里是 CC Dynamic Workflow 版本的实验环境。`CC` 表示执行宿主，不代表
+这是一个不使用 Workflow 的基线。
 
-## Trigger and isolation
+## 触发方式与隔离
 
-`experiment/runner.py` keeps the original `PROMPT_TEMPLATE` and invokes Claude Code non-interactively with:
+`experiment/runner.py` 保留原始 `PROMPT_TEMPLATE`，并使用以下参数以非交互
+方式启动 Claude Code：
 
 ```text
 --output-format stream-json
@@ -19,27 +21,32 @@ This repository's Claude Code experiment is the Dynamic Workflow variant. `CC` n
 -p
 ```
 
-Do not add `--bare`: on Claude Code 2.1.220 it reduced the registered built-in tools to `Bash`, `Edit`, and `Read`, so `Workflow` was unavailable even though Ultracode mapped the session to `xhigh` effort.
+不要加入 `--bare`。在 Claude Code 2.1.220 中，`--bare` 会使内置工具列表只剩
+`Bash`、`Edit` 和 `Read`，即使 Ultracode 已映射到 `xhigh`，Workflow 也不会
+注册。
 
-`experiment/run_penguin_30.ps1` creates a unique `runs/dynamic/<run-id>/` directory with run-isolated Claude config and temporary directories. It keeps all canonical outputs there instead of copying them to the older shared output folder.
+`experiment/run_penguin_30.ps1` 会为每次运行创建独立的
+`runs/dynamic/<run-id>/`，并隔离 Claude 配置目录和临时目录。规范输出始终
+保存在该运行目录，不复制到旧的共享输出目录。
 
-## Prompt
+## 原始提示词
 
-The original prompt is embedded as `PROMPT_TEMPLATE` in `experiment/runner.py`. It asks Claude to:
+原始提示词保存在 `experiment/runner.py` 的 `PROMPT_TEMPLATE` 中，要求 Claude：
 
-- run a small workflow with at most 3 phases and 5 subagents;
-- prefer sequential phases and parallelize only independent searches;
-- limit each subagent to 5 tool calls and one fallback search;
-- use TravelPlanner MCP data for flights, accommodations, restaurants, attractions, and distance;
-- return only the required day-by-day TravelPlanner JSON.
+- 使用最多 3 个 phase、最多 5 个 subagent 的小型 Workflow；
+- 优先顺序执行，只对相互独立的搜索并行化；
+- 每个 subagent 最多调用 5 次工具，并最多尝试一次备用搜索；
+- 使用 TravelPlanner MCP 查询航班、住宿、餐厅、景点和距离；
+- 只返回规定格式的逐日 TravelPlanner JSON。
 
-No extra `dynamic` or `ultracode` wording was added to the prompt. Workflow routing comes from `--effort ultracode`.
+提示词中没有额外加入 `dynamic` 或 `ultracode`。Workflow 路由由
+`--effort ultracode` 触发。
 
-## Verified runtime behavior
+## 已验证的运行行为
 
-The no-`bare` pilot produced one `Workflow` call, a generated JavaScript workflow, and three workflow subagents. The main conversation made no direct TravelPlanner MCP calls.
+单题门禁实验观察到 1 次 `Workflow` 调用、1 个生成的 JavaScript Workflow
+和 3 个 Workflow subagent；主会话没有直接调用 TravelPlanner MCP。
 
-The checked-in launcher is conservative and sequential. During the recorded experiment, a separate one-off parallel harness gave every process its own `CLAUDE_CONFIG_DIR` and temporary directory. Six concurrent query shards caused gateway queueing and 2400-second timeouts. Three shards were the highest effective concurrency observed.
-
-The measured run and score artifacts are intentionally published in a separate
-results PR so this environment change cannot alter the reported baseline.
+正式实验使用独立的 `CLAUDE_CONFIG_DIR` 和临时目录。6 路并发会造成网关排队
+和 2400 秒超时；3 路是实测有效的最高并发。实验结果另行放在结果 PR 中，
+避免环境修改改变已记录的基线。

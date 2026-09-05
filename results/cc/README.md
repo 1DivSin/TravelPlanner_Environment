@@ -1,31 +1,23 @@
-# CC direct-MCP result
+# 纯 CC 直连 MCP 实验结果
 
-Run: `cc-pure-formal-20260904-1118` from the `cc+旧` session.
+运行目录：`cc-pure-formal-20260904-1118`，来自 `cc+旧` 会话。
 
-## Outcome
+## 结果
 
-- 180/180 validation indices were attempted exactly once as unique query
-  targets; 53 produced a plan and 127 ended in gateway quota failures.
-- The run used three outer workers, one isolated Claude Code process per
-  attempt, and no Workflow/subagent orchestration.
-- The first reachable checkpoint (50 successful query sessions) scored
-  **36/50 final pass (72.00%)**.
-- Checkpoints 100, 150, and 180 were not reached, so no score is inferred for
-  them.
+- 180/180 个 validation 索引都被安排尝试；其中 53 个会话成功生成计划，
+  127 个会话因网关额度失败。
+- 外层并发为 3；每次尝试使用独立的 Claude Code 进程和隔离目录。
+- 第一个达到的 checkpoint 是 50 个成功会话，最终通过 **36/50（72.00%）**。
+- 100、150、180 checkpoint 没有达到，不对这些节点推断分数。
 
-The per-query score evidence is in [scores-50.json](scores-50.json). The
-sanitized attempt ledger keeps query, plan, timing, token, cost, and error
-fields while removing local paths, raw provider errors, and model-detail
-payloads.
+逐题评分见 [scores-50.json](scores-50.json)。脱敏后的尝试记录保留题目、计划、
+时间、token、费用和错误类型，但移除了本地路径、原始服务商错误和模型明细。
 
-## Interpretation
+## 如何解读
 
-This is a direct-MCP baseline, not a failed full-180 evaluation: the runner
-did finish the requested 180-index attempt schedule, but the gateway stopped
-returning usable sessions after 53 successes. The result should therefore be
-reported as “180 attempted / 53 successful / 50 scored,” rather than as a
-72% score over all 180 queries.
+这不是“180 题评分失败”：runner 确实完成了 1–180 的尝试安排，但网关在
+53 个成功会话后不再返回可用会话。因此应表述为“180 题已尝试 / 53 题成功 /
+50 题已评分”，而不是把 72% 当成 180 题总体分数。
 
-The final checkpoint cost was `$54.2519238` for 50 scored successful plans.
-The gateway metadata is retained in [gateway.json](gateway.json); it contains
-model/auth-mode metadata only and no credential.
+50 题 checkpoint 的记录费用为 `$54.2519238`。`gateway.json` 只保留网关和模型
+元数据，不包含凭据。

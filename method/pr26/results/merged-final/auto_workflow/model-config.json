@@ -1,0 +1,9 @@
+{
+  "provider": "anthropic",
+  "model": "claude-opus-5",
+  "base_url": "https://api2.penguinsaichat.dpdns.org",
+  "api_key_configured": true,
+  "api_key_recorded": false,
+  "arm": "auto-workflow",
+  "recorded_at": "2026-09-04T13:55:00.277113+00:00"
+}

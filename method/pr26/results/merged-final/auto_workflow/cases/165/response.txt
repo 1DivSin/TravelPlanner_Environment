@@ -1,0 +1,55 @@
+I'll start by reading the workflow skill instructions.[Tool Call: read({"file_path": "skills/workflow/SKILL.md"})][Tool Result: ---
+name: workflow
+description: Author, save, inspect, reuse, or run workflow declarations after 
+explicit Workflow or multi-agent opt-in. Use for coordinated agents or roles, 
+program or human steps, parallel branches, and staged pipelines. Use the legacy 
+flow skill only for explicit compatibility work.
+---
+
+## Explicit user activation takes precedence
+
+If the current user explicitly asks to use the Workflow skill, activate 
+Authoring
+Mode even when the underlying task could otherwise be answered in one shot. 
+Author
+and run a concrete workflow before returning the final result; do not bypass the
+requested Workflow merely because the task appears simple.
+
+
+# Workflow
+
+Workflow is the workspace's declarative system for coordinating agents,
+programs, and human checkpoints. This skill turns a user's intent into a
+checked graph, executes independent work concurrently when appropriate, and
+returns the final declared artifacts.
+
+> **Workspace boundary.** Store one-off authored G4 files under th][Tool Call: read({"file_path": "skills/workflow/grammar/FusionFlow.g4"})][Tool Result: /*
+ * FusionFlow surface-syntax contract.
+ *
+ * The parser owns tokens, delimiters, file-level identity declarations,
+ * assertions, formulas, terms, List literals, the three-argument shape of
+ * if(...), and the names and owner categories of the preset operators.
+ *
+ * Concepts and operator signatures come from an external catalog; source files
+ * cannot redefine them. The checker and catalog own identity/operator lookup,
+ * concept compatibility, ordinary operator arity and types, value constraints,
+ * workflow legality, and exact backend support. Lowering/runtime own execution
+ * order, dependencies, list-valued data relations, branch evaluation, and
+ * retries/timeouts.
+ *
+ * For a compact, readable BNF and consistency with KEDispatcher, preset
+ * operators remain syntax sugar over the same flexible call shape instead of
+ * getting separate arity-constrained parser rules. After syntax parsing, the
+ * checker/catalog validates ordinary operator arity and types.
+ *
+ * Complete inline]I'm working through the workflow structure for this trip planner. I need to set up a discovery step that lists California cities and then filters them based on flight availability from Salt Lake City, rather than trying to handle everything at once.
+
+The cleaner approach is to have the route-planning step choose 3 cities upfront based on which flights are available, then use a foreach loop to collect accommodations, restaurants, and attractions in parallel for each selected city. Each city object in that list can carry the necessary details like arrival/departure dates and required nights, so the per-city collection steps have everything they need. I'll use the same city_stays artifact for the accommodation, dining, and attraction collection steps with different foreach bindings. Then the assemble_plan step combines all the candidates with the route plan and original request into a draft. The validate_draft step checks that draft against the request and produces a validation report, and the repair_plan step takes the report and draft—if validation passed, it returns the draft unchanged; otherwise it fixes issues and re-validates.
+
+For the artifact contracts, I'm keeping the schemas simple and descriptive to avoid validation failures, using mostly straightforward array and object definitions with clear descriptions. I need to be careful about validation here. If each iteration returns an array of accommodation objects and the aggregate is validated as an array type, then each element (which is itself an array) should pass validation either way. That's safer than having iterations return objects. I'll structure it so each iteration produces an array, making the aggregate an array of arrays, and I'll use legacy directives with minimal schema declarations to reduce compilation risk.
+
+Now I'm setting up the grammar file and instruction documents for the travel planner flow. I need to create the grammar definition, then write companion markdown files covering the assembly, validation, and repair logic. For the agent steps that search flights, accommodations, restaurants, and attractions, I'll declare allowed_tool restrictions to ensure the tool names match exactly what's available. I need to be careful with the allowed_tool declarations for each agent so I don't accidentally block critical tools. For the route planning, I'm thinking through California cities and flight options—the key constraint is no self-driving between cities, so flights are preferred. I'm drafting the route instruction to search for flights from Salt Lake City to candidate cities on March 25th, then connecting legs on March 27th and beyond, keeping budget in mind by preferring cheaper flight combinations.
+
+Now I'm structuring the response to include a route_plan object, flight_candidates array with fields like flight number and pricing, and a city_stays array that specifies each city with check-in/check-out dates, room requirements, and smoking rules. The accommodation search step will then use these city_stays parameters to find matching properties. I'm calculating the total nights across the three cities—two nights in each location across the week-long trip.
+
+With a 4600 budget covering four flight legs for two travelers, I need to ensure the route planner selects affordable options. I'm also noting the max concurrency constraint and preparing to write the instruction files with the exact schema and day-by-day itinerary structure, including the transportation format that matches the tool's output.

@@ -1,0 +1,412 @@
+I'll start by reading the workflow skill.[Tool Call: read({"file_path": "skills/workflow/SKILL.md"})][Tool Result: ---
+name: workflow
+description: Author, save, inspect, reuse, or run workflow declarations after 
+explicit Workflow or multi-agent opt-in. Use for coordinated agents or roles, 
+program or human steps, parallel branches, and staged pipelines. Use the legacy 
+flow skill only for explicit compatibility work.
+---
+
+## Explicit user activation takes precedence
+
+If the current user explicitly asks to use the Workflow skill, activate 
+Authoring
+Mode even when the underlying task could otherwise be answered in one shot. 
+Author
+and run a concrete workflow before returning the final result; do not bypass the
+requested Workflow merely because the task appears simple.
+
+
+# Workflow
+
+Workflow is the workspace's declarative system for coordinating agents,
+programs, and human checkpoints. This skill turns a user's intent into a
+checked graph, executes independent work concurrently when appropriate, and
+returns the final declared artifacts.
+
+> **Workspace boundary.** Store one-off authored G4 files under th]I need to review the grammar file.[Tool Call: read({"file_path": "skills/workflow/grammar/FusionFlow.g4"})][Tool Result: /*
+ * FusionFlow surface-syntax contract.
+ *
+ * The parser owns tokens, delimiters, file-level identity declarations,
+ * assertions, formulas, terms, List literals, the three-argument shape of
+ * if(...), and the names and owner categories of the preset operators.
+ *
+ * Concepts and operator signatures come from an external catalog; source files
+ * cannot redefine them. The checker and catalog own identity/operator lookup,
+ * concept compatibility, ordinary operator arity and types, value constraints,
+ * workflow legality, and exact backend support. Lowering/runtime own execution
+ * order, dependencies, list-valued data relations, branch evaluation, and
+ * retries/timeouts.
+ *
+ * For a compact, readable BNF and consistency with KEDispatcher, preset
+ * operators remain syntax sugar over the same flexible call shape instead of
+ * getting separate arity-constrained parser rules. After syntax parsing, the
+ * checker/catalog validates ordinary operator arity and types.
+ *
+ * Complete inline]I'm setting up a parallel workflow to gather all the trip details at once—searching for outbound and return flights between Oakland and Tucson, finding accommodations for a one-night stay, and pulling restaurant and attraction options for the destination.
+
+Then I'll assemble these results into a draft plan, validate it against the trip contract, and if validation fails, run a repair step that attempts to fix issues and re-validates. If the initial validation passes, the repair step just passes the draft through unchanged, and finally I select the best plan from the candidates. Actually, I think the cleaner approach is to have the repair step always produce the final plan—if the validation report shows it's valid, just return the draft unchanged without making any modifications or calling the tool again. Then use the selection logic to pick the draft when the verdict is valid. I'll set up the inputs with the task contract object and a valid marker string, and declare the artifact schemas for the candidate arrays.
+
+Defining the artifact contracts with reasonable schemas...
+
+I need to be careful with schema directives — they require a top-level type and non-empty description, so I'll keep them as comment lines at the file top. The workflow chains together five parallel searches (outbound flights, return flights, lodging, dining, attractions), then assembles them into a draft plan, validates it against the task contract, and repairs it if needed. The final plan is either the draft or repaired version depending on whether validation passes. I'm also setting up tool constraints per agent and defining the allowed tools: search_flights, search_accommodations, search_restaurants, search_attractions, compute_distance, and validate_travel_plan.
+
+I'm reconsidering whether to explicitly list allowed tools or rely on the default host-safe registry — using the quoted constant form for tool IDs is valid, but I'll skip the allowed_tool assertions to reduce failure risk and trust the default behavior. For the long instruction text, I'll keep it inline with escaped newlines rather than splitting into separate files to keep everything self-contained.
+
+Now I'm sketching out the actual trip: three days with flights Oakland to Tucson on day one, staying in Tucson for day two, then flying back on day three, with accommodation for the first two nights. I'll organize this in a dedicated workflow directory and write out the assembler instructions that specify which flight options to select from the candidates, with specific dates like the March 15th departure and return flight details.
+
+For meals, I need to account for the travel schedule—skipping breakfast on day one since they're flying out in the morning, then filling in lunch and dinner in Tucson. Day two gets all three meals, and day three might skip dinner depending on the flight time. I'll make sure restaurants don't repeat across the whole trip, attractions stay unique, and everything stays under the $1400 budget with the validation tool checking the total.
+
+Now I'm writing out the G4 file with inline search instructions for the flight booking steps.
+
+For the flight search, I need to return all candidate flights as a JSON array with the required fields—flight number, origin, destination, departure and arrival times, price—plus a formatted transportation string. I should include every result from the tool without inventing anything.
+
+For accommodations, the search_accommodations call requires passing required_nights, travelers, required_room_type, and required_house_rule. Since the query has no room or house rule constraints, I'll pass empty strings for those fields.
+
+I'm keeping the schemas simple with arrays of objects and additionalProperties enabled by default, adding descriptions but skipping minItems to avoid issues if a tool returns empty results. The draft_plan schema will be an object with idx, query, and plan properties, all required. I'll construct the flight transportation string in the format the tool expects and then JSON-encode the complete plan object to pass to the validator.
+
+For the repair logic, if validation passes I return the plan unchanged, but if it fails I'll attempt a fix using only the candidates and call the validator again—if that second attempt still fails, I return an empty plan with the original idx and query.[Tool Call: write({"file_path": 
+"flows/tucson-3day-trip/instructions/assemble.md", "content": "# Assemble the 
+3-day Oakland -> Tucson itinerary\n\nYou are the itinerary assembler. Do not 
+call any tool. Use only the values present in\n`task_contract`, 
+`outbound_flights`, `return_flights`, 
+`lodging_candidates`,\n`dining_candidates`, and `attraction_candidates`. Every 
+name, number, city, price and\ntime you emit must come verbatim from those typed
+candidate arrays. Never invent a\nflight, hotel, restaurant, or attraction, and 
+never modify a candidate's name.\n\n## Trip contract\n- Traveler count: 1. Days:
+3. Dates: 2022-03-15 (day 1), 2022-03-16 (day 2), 2022-03-17 (day 3).\n- Origin:
+Oakland. Destination: Tucson. Total hard budget: $1400.\n- Day 1 `current_city` 
+must be exactly `from Oakland to Tucson`.\n- Day 2 `current_city` must be 
+exactly `Tucson`.\n- Day 3 `current_city` must be exactly `from Tucson to 
+Oakland`.\n\n## Transportation\n- Day 1 transportation: pick one member of 
+`outbound_flights` and emit its\n  `transportation` string exactly in the form\n
+`Flight Number: <number>, from Oakland to Tucson, Departure Time: <hh:mm>, 
+Arrival Time: <hh:mm>`.\n- Day 3 transportation: pick one member of 
+`return_flights` in the form\n  `Flight Number: <number>, from Tucson to 
+Oakland, Departure Time: <hh:mm>, Arrival Time: <hh:mm>`.\n- Day 2 
+transportation: `-`.\n- Prefer cheap flights so the whole plan fits the budget 
+with room to spare.\n\n## Accommodation\n- Choose exactly ONE member of 
+`lodging_candidates` and use it for day 1 and day 2 as\n  `<name>, Tucson`. Day 
+3 accommodation is `-`.\n- The candidate list is already filtered for 2 
+consecutive nights and 1 traveler, so any\n  member is acceptable; prefer a low 
+`price`.\n- Lodging cost = price * 2 nights * 1 room.\n\n## Meals\n- Every meal 
+you fill must be `<name>, Tucson` and must come from `dining_candidates`.\n- Day
+1: breakfast `-` (the traveler is flying), lunch and dinner in Tucson.\n- Day 2:
+breakfast, lunch and dinner in Tucson.\n- Day 3: breakfast and lunch in Tucson, 
+dinner `-`.\n- Use a DIFFERENT restaurant for every single meal slot in the 
+whole plan. No restaurant\n  may appear twice anywhere in the plan.\n\n## 
+Attractions\n- Day 1: one attraction. Day 2: two attractions. Day 3: one 
+attraction.\n- Format each entry as `<name>, Tucson;` and join multiple entries 
+with `;` so the field\n  looks like `A, Tucson;B, Tucson;`.\n- No attraction may
+repeat anywhere in the plan.\n\n## Budget check before you answer\nCompute: 
+outbound flight price + return flight price + (lodging price * 2) + sum of 
+the\n`cost` of every chosen restaurant meal. Attractions are treated as free. 
+The total must be\nstrictly under $1400. If it is not, re-pick cheaper flights, 
+cheaper lodging, and cheaper\nrestaurants from the same arrays until it 
+is.\n\n## Output\nReturn `draft_plan` as one JSON object with exactly these 
+keys:\n`idx` (integer 2), `query` (the exact query string from `task_contract`),
+and `plan`\n(array of 3 day objects). Each day object has exactly the keys 
+`day`, `current_city`,\n`transportation`, `breakfast`, `attraction`, `lunch`, 
+`dinner`, `accommodation`, all\nstrings except the integer `day`. Use `-` for 
+any empty slot.\n"})][Tool Result: [OK] Written 3082 bytes to 
+/public/home/sychen/cxy/workflow/TravelPlanner/runs/pr26-generic-global-verifier
+-full180-20260904-r2/shard-001-012/auto_workflow/workspace/2/attempt-1/flows/tuc
+son-3day-trip/instructions/assemble.md]Now I'm looking at the validator and repair instructions.[Tool Call: write({"file_path": 
+"flows/tucson-3day-trip/instructions/validate.md", "content": "# Validate the 
+assembled plan with the deterministic tool\n\nYou are the validation gate. Do 
+exactly this, in order:\n\n1. Read `draft_plan`. It already has the shape `{idx,
+query, plan}`.\n2. JSON-encode that complete object (no edits, no reformatting 
+of values) into a single\n   JSON string.\n3. Call `validate_travel_plan` with 
+`plan_json` set to that JSON string.\n4. Produce two Artifacts:\n   - 
+`validation_report`: EXACTLY the JSON object returned by 
+`validate_travel_plan`,\n     unchanged, with no added commentary, keys, or 
+wrapper.\n   - `checked_plan`: the `draft_plan` object, unchanged.\n\nDo not 
+fix, reselect, or rewrite anything. Do not substitute your own prose review for 
+the\ntool output. The tool call is mandatory.\n"})][Tool Result: [OK] Written 724 bytes to 
+/public/home/sychen/cxy/workflow/TravelPlanner/runs/pr26-generic-global-verifier
+-full180-20260904-r2/shard-001-012/auto_workflow/workspace/2/attempt-1/flows/tuc
+son-3day-trip/instructions/validate.md][Tool Call: write({"file_path": "flows/tucson-3day-trip/instructions/repair.md",
+"content": "# Repair the plan if validation failed, then re-validate\n\nInputs: 
+`task_contract`, `outbound_flights`, `return_flights`, 
+`lodging_candidates`,\n`dining_candidates`, `attraction_candidates`, 
+`checked_plan`, `validation_report`.\n\n## Step 1 — decide\nInspect 
+`validation_report`.\n\n- If `validation_report.valid` is true, do NOT change 
+anything. Set `final_plan` to\n  `checked_plan` exactly as received, and skip to
+Step 4 (no second tool call needed:\n  instead re-run the tool once to confirm, 
+see Step 3 — it is still safe and required\n  only when you changed something; 
+if you changed nothing you may return\n  `checked_plan` directly).\n- If 
+`validation_report.valid` is false, continue to Step 2.\n\n## Step 2 — 
+repair\nFix every reported violation. Use ONLY members of the supplied typed 
+candidate arrays\n(`outbound_flights`, `return_flights`, `lodging_candidates`, 
+`dining_candidates`,\n`attraction_candidates`). Preserve the required 
+structure:\n\n- 3 days; day 1 `current_city` = `from Oakland to Tucson`, day 2 =
+`Tucson`,\n  day 3 = `from Tucson to Oakland`.\n- Day 1 and day 3 carry the 
+flight strings; day 2 transportation `-`.\n- One single accommodation `<name>, 
+Tucson` on days 1 and 2; `-` on day 3.\n- Day 1 breakfast `-`; day 3 dinner `-`;
+all other meal slots filled with distinct\n  restaurants from 
+`dining_candidates`, formatted `<name>, Tucson`.\n- Attractions: 1 on day 1, 2 
+on day 2, 1 on day 3, formatted `<name>, Tucson;`, no repeats.\n- Total cost 
+(flights + lodging price * 2 nights + all meal costs) strictly under 
+$1400.\n\n## Step 3 — re-validate\nJSON-encode the repaired `{idx, query, plan}`
+object and call `validate_travel_plan` with\nit as `plan_json`. If it is still 
+invalid, apply one more correction only if the violation\nis trivially fixable 
+from the candidates; otherwise set `final_plan` to\n`{\"idx\": 2, \"query\": 
+\"<the exact query string>\", \"plan\": []}`.\n\n## Step 4 — output\nReturn 
+exactly two Artifacts:\n- `repair_report`: the JSON returned by your 
+`validate_travel_plan` call in this Step, or\n  the string `no_repair_needed` 
+when `validation_report.valid` was already true.\n- `final_plan`: the validated 
+`{idx, query, plan}` object.\n"})][Tool Result: [OK] Written 2163 bytes to 
+/public/home/sychen/cxy/workflow/TravelPlanner/runs/pr26-generic-global-verifier
+-full180-20260904-r2/shard-001-012/auto_workflow/workspace/2/attempt-1/flows/tuc
+son-3day-trip/instructions/repair.md]I'm setting up the workflow with all the necessary artifacts for the travel planning system—flights, lodging, dining, and attractions—along with the validation and repair stages. The workflow chains together search operations for each component, then assembles them into a draft plan, validates it, repairs any issues, and produces the final itinerary. I need to declare the artifact schemas for the candidate arrays to structure the data flowing through each step.[Tool Call: write({"file_path": "flows/tucson-3day-trip/tucson_trip.g4", 
+"content": "-- SCENARIO: Build and validate a 3-day one-person Oakland to Tucson
+itinerary under $1400.\n-- AUTHORED: 2022-03-01 00:00:00 from intent: \"3-day 
+travel itinerary for one person from Oakland to Tucson, 2022-03-15 to 
+2022-03-17, budget $1400.\"\n\n-- @artifact task_contract = 
+{\"type\":\"object\",\"description\":\"Trip requirements for this 
+case.\",\"properties\":{\"idx\":{\"type\":\"integer\",\"description\":\"Case 
+index.\"},\"query\":{\"type\":\"string\",\"description\":\"Exact user query 
+text.\",\"minLength\":1},\"origin\":{\"type\":\"string\",\"description\":\"Origi
+n 
+city.\",\"minLength\":1},\"destination\":{\"type\":\"string\",\"description\":\"
+Destination 
+city.\",\"minLength\":1},\"depart_date\":{\"type\":\"string\",\"description\":\"
+Outbound date 
+YYYY-MM-DD.\",\"minLength\":10},\"return_date\":{\"type\":\"string\",\"descripti
+on\":\"Return date 
+YYYY-MM-DD.\",\"minLength\":10},\"days\":{\"type\":\"integer\",\"description\":\
+"Trip length in 
+days.\"},\"travelers\":{\"type\":\"integer\",\"description\":\"Number of 
+travelers.\"},\"nights\":{\"type\":\"integer\",\"description\":\"Consecutive 
+lodging nights.\"},\"budget\":{\"type\":\"number\",\"description\":\"Total 
+budget in 
+USD.\"}},\"required\":[\"idx\",\"query\",\"origin\",\"destination\",\"depart_dat
+e\",\"return_date\",\"days\",\"travelers\",\"nights\",\"budget\"],\"additionalPr
+operties\":false}\n-- @artifact outbound_flights = 
+{\"type\":\"array\",\"description\":\"Structured Oakland to Tucson flight 
+candidates for the outbound 
+date.\",\"items\":{\"type\":\"object\",\"description\":\"One flight 
+candidate.\",\"properties\":{\"flight_number\":{\"type\":\"string\",\"descriptio
+n\":\"Flight 
+number.\",\"minLength\":1},\"origin\":{\"type\":\"string\",\"description\":\"Ori
+gin 
+city.\",\"minLength\":1},\"destination\":{\"type\":\"string\",\"description\":\"
+Destination 
+city.\",\"minLength\":1},\"departure_time\":{\"type\":\"string\",\"description\"
+:\"Local departure time 
+hh:mm.\",\"minLength\":4},\"arrival_time\":{\"type\":\"string\",\"description\":
+\"Local arrival time 
+hh:mm.\",\"minLength\":4},\"price\":{\"type\":\"number\",\"description\":\"Per-p
+erson price in 
+USD.\"},\"transportation\":{\"type\":\"string\",\"description\":\"Canonical 
+transportation string for the plan 
+field.\",\"minLength\":1}},\"required\":[\"flight_number\",\"origin\",\"destinat
+ion\",\"departure_time\",\"arrival_time\",\"price\",\"transportation\"],\"additi
+onalProperties\":false}}\n-- @artifact return_flights = 
+{\"type\":\"array\",\"description\":\"Structured Tucson to Oakland flight 
+candidates for the return 
+date.\",\"items\":{\"type\":\"object\",\"description\":\"One flight 
+candidate.\",\"properties\":{\"flight_number\":{\"type\":\"string\",\"descriptio
+n\":\"Flight 
+number.\",\"minLength\":1},\"origin\":{\"type\":\"string\",\"description\":\"Ori
+gin 
+city.\",\"minLength\":1},\"destination\":{\"type\":\"string\",\"description\":\"
+Destination 
+city.\",\"minLength\":1},\"departure_time\":{\"type\":\"string\",\"description\"
+:\"Local departure time 
+hh:mm.\",\"minLength\":4},\"arrival_time\":{\"type\":\"string\",\"description\":
+\"Local arrival time 
+hh:mm.\",\"minLength\":4},\"price\":{\"type\":\"number\",\"description\":\"Per-p
+erson price in 
+USD.\"},\"transportation\":{\"type\":\"string\",\"description\":\"Canonical 
+transportation string for the plan 
+field.\",\"minLength\":1}},\"required\":[\"flight_number\",\"origin\",\"destinat
+ion\",\"departure_time\",\"arrival_time\",\"price\",\"transportation\"],\"additi
+onalProperties\":false}}\n-- @artifact lodging_candidates = 
+{\"type\":\"array\",\"description\":\"Tucson accommodations already filtered for
+2 nights and 1 traveler.\",\"items\":{\"type\":\"object\",\"description\":\"One 
+accommodation 
+candidate.\",\"properties\":{\"name\":{\"type\":\"string\",\"description\":\"Acc
+ommodation name exactly as 
+returned.\",\"minLength\":1},\"city\":{\"type\":\"string\",\"description\":\"Cit
+y 
+name.\",\"minLength\":1},\"price\":{\"type\":\"number\",\"description\":\"Price 
+per room per night in 
+USD.\"},\"room_type\":{\"type\":\"string\",\"description\":\"Official room 
+type.\"},\"house_rules\":{\"type\":\"string\",\"description\":\"House rules text
+or empty.\"},\"minimum_nights\":{\"type\":\"integer\",\"description\":\"Minimum 
+nights 
+required.\"},\"maximum_occupancy\":{\"type\":\"integer\",\"description\":\"Maxim
+um occupancy per 
+room.\"}},\"required\":[\"name\",\"city\",\"price\",\"room_type\"],\"additionalP
+roperties\":false}}\n-- @artifact dining_candidates = 
+{\"type\":\"array\",\"description\":\"Tucson restaurant 
+candidates.\",\"items\":{\"type\":\"object\",\"description\":\"One restaurant 
+candidate.\",\"properties\":{\"name\":{\"type\":\"string\",\"description\":\"Res
+taurant name exactly as 
+returned.\",\"minLength\":1},\"city\":{\"type\":\"string\",\"description\":\"Cit
+y 
+name.\",\"minLength\":1},\"cost\":{\"type\":\"number\",\"description\":\"Average
+cost per person in 
+USD.\"},\"cuisines\":{\"type\":\"string\",\"description\":\"Cuisine list 
+text.\"}},\"required\":[\"name\",\"city\",\"cost\"],\"additionalProperties\":fal
+se}}\n-- @artifact attraction_candidates = 
+{\"type\":\"array\",\"description\":\"Tucson attraction 
+candidates.\",\"items\":{\"type\":\"object\",\"description\":\"One attraction 
+candidate.\",\"properties\":{\"name\":{\"type\":\"string\",\"description\":\"Att
+raction name exactly as 
+returned.\",\"minLength\":1},\"city\":{\"type\":\"string\",\"description\":\"Cit
+y 
+name.\",\"minLength\":1}},\"required\":[\"name\",\"city\"],\"additionalPropertie
+s\":false}}\n-- @artifact draft_plan = 
+{\"type\":\"object\",\"description\":\"Assembled candidate itinerary 
+object.\",\"properties\":{\"idx\":{\"type\":\"integer\",\"description\":\"Case 
+index.\"},\"query\":{\"type\":\"string\",\"description\":\"Exact user query 
+text.\",\"minLength\":1},\"plan\":{\"type\":\"array\",\"description\":\"Ordered 
+day 
+plans.\",\"minItems\":3,\"maxItems\":3,\"items\":{\"type\":\"object\",\"descript
+ion\":\"One day of the 
+itinerary.\",\"properties\":{\"day\":{\"type\":\"integer\",\"description\":\"1-i
+ndexed day 
+number.\"},\"current_city\":{\"type\":\"string\",\"description\":\"City or 
+transfer 
+string.\",\"minLength\":1},\"transportation\":{\"type\":\"string\",\"description
+\":\"Transportation string or 
+dash.\",\"minLength\":1},\"breakfast\":{\"type\":\"string\",\"description\":\"Br
+eakfast entry or 
+dash.\",\"minLength\":1},\"attraction\":{\"type\":\"string\",\"description\":\"A
+ttraction entries or 
+dash.\",\"minLength\":1},\"lunch\":{\"type\":\"string\",\"description\":\"Lunch 
+entry or 
+dash.\",\"minLength\":1},\"dinner\":{\"type\":\"string\",\"description\":\"Dinne
+r entry or 
+dash.\",\"minLength\":1},\"accommodation\":{\"type\":\"string\",\"description\":
+\"Accommodation entry or 
+dash.\",\"minLength\":1}},\"required\":[\"day\",\"current_city\",\"transportatio
+n\",\"breakfast\",\"attraction\",\"lunch\",\"dinner\",\"accommodation\"],\"addit
+ionalProperties\":false}}},\"required\":[\"idx\",\"query\",\"plan\"],\"additiona
+lProperties\":false}\n-- @artifact checked_plan = 
+{\"type\":\"object\",\"description\":\"The plan object exactly as submitted to 
+the 
+validator.\",\"properties\":{\"idx\":{\"type\":\"integer\",\"description\":\"Cas
+e index.\"},\"query\":{\"type\":\"string\",\"description\":\"Exact user query 
+text.\",\"minLength\":1},\"plan\":{\"type\":\"array\",\"description\":\"Ordered 
+day plans.\",\"items\":{\"type\":\"object\",\"description\":\"One day of the 
+itinerary.\"}}},\"required\":[\"idx\",\"query\",\"plan\"],\"additionalProperties
+\":false}\n-- @artifact validation_report = 
+{\"type\":\"object\",\"description\":\"Exactly the JSON object returned by 
+validate_travel_plan.\",\"properties\":{\"valid\":{\"type\":\"boolean\",\"descri
+ption\":\"Whether the plan passed every deterministic 
+check.\"}},\"required\":[\"valid\"]}\n-- @artifact repair_report = 
+{\"type\":\"string\",\"description\":\"Serialized second validation result, or 
+the literal no_repair_needed.\"}\n-- @artifact final_plan = 
+{\"type\":\"object\",\"description\":\"Validated final itinerary 
+object.\",\"properties\":{\"idx\":{\"type\":\"integer\",\"description\":\"Case 
+index.\"},\"query\":{\"type\":\"string\",\"description\":\"Exact user query 
+text.\",\"minLength\":1},\"plan\":{\"type\":\"array\",\"description\":\"Ordered 
+day plans; empty only when validation could not be 
+satisfied.\",\"items\":{\"type\":\"object\",\"description\":\"One day of the 
+itinerary.\"}}},\"required\":[\"idx\",\"query\",\"plan\"],\"additionalProperties
+\":false}\n\nconst task_contract: Artifact;\nconst outbound_flights: 
+Artifact;\nconst return_flights: Artifact;\nconst lodging_candidates: 
+Artifact;\nconst dining_candidates: Artifact;\nconst attraction_candidates: 
+Artifact;\nconst draft_plan: Artifact;\nconst checked_plan: Artifact;\nconst 
+validation_report: Artifact;\nconst repair_report: Artifact;\nconst final_plan: 
+Artifact;\n\nconst search_outbound_step: Step;\nconst search_return_step: 
+Step;\nconst search_lodging_step: Step;\nconst search_dining_step: Step;\nconst 
+search_attractions_step: Step;\nconst assemble_step: Step;\nconst validate_step:
+Step;\nconst repair_step: Step;\n\nconst outbound_agent: Agent, Executor;\nconst
+return_agent: Agent, Executor;\nconst lodging_agent: Agent, Executor;\nconst 
+dining_agent: Agent, Executor;\nconst attractions_agent: Agent, Executor;\nconst
+planner_agent: Agent, Executor;\nconst validator_agent: Agent, Executor;\nconst 
+repair_agent: Agent, Executor;\n\nworkflow tucson_trip {\n  -- DATA FLOW\n  
+input_workflow(tucson_trip) == ;\n  consumes(search_outbound_step) == ;\n  
+produces(search_outbound_step) == ;\n  consumes(search_return_step) == ;\n  
+produces(search_return_step) == ;\n  consumes(search_lodging_step) == ;\n  
+produces(search_lodging_step) == ;\n  consumes(search_dining_step) == ;\n  
+produces(search_dining_step) == ;\n  consumes(search_attractions_step) == ;\n  
+produces(search_attractions_step) == ;\n  consumes(assemble_step) == ;\n  
+produces(assemble_step) == ;\n  consumes(validate_step) == ;\n  
+produces(validate_step) == ;\n  consumes(repair_step) == ;\n  
+produces(repair_step) == ;\n  output_workflow(tucson_trip) == ;\n\n  -- EXECUTOR
+ASSIGNMENT\n  step_executor(search_outbound_step) == outbound_agent;\n  
+step_executor(search_return_step) == return_agent;\n  
+step_executor(search_lodging_step) == lodging_agent;\n  
+step_executor(search_dining_step) == dining_agent;\n  
+step_executor(search_attractions_step) == attractions_agent;\n  
+step_executor(assemble_step) == planner_agent;\n  step_executor(validate_step) 
+== validator_agent;\n  step_executor(repair_step) == repair_agent;\n\n  -- STEP 
+CONFIGURATION\n  step_name(search_outbound_step) == \"Search Outbound 
+Flights\";\n  step_instruction(search_outbound_step) == \"Call search_flights 
+with origin, destination and departure_date taken from task_contract 
+(origin=Oakland, destination=Tucson, departure_date=the depart_date value). Read
+the typed JSON result and return outbound_flights as a structured array. For 
+each candidate keep the flight number, origin city, destination city, departure 
+time as hh:mm, arrival time as hh:mm, per-person price as a number, and build 
+transportation as 'Flight Number: <number>, from Oakland to Tucson, Departure 
+Time: <hh:mm>, Arrival Time: <hh:mm>'. Never copy raw tables or prose; keep at 
+most the 10 cheapest candidates. If the tool returns nothing, return an empty 
+array.\";\n  step_timeout(search_outbound_step) == 300;\n  
+step_name(search_return_step) == \"Search Return Flights\";\n  
+step_instruction(search_return_step) == \"Call search_flights with 
+origin=Tucson, destination=Oakland and departure_date=the return_date value from
+task_contract. Read the typed JSON result and return return_flights as a 
+structured array. For each candidate keep the flight number, origin city, 
+destination city, departure time as hh:mm, arrival time as hh:mm, per-person 
+price as a number, and build transportation as 'Flight Number: <number>, from 
+Tucson to Oakland, Departure Time: <hh:mm>, Arrival Time: <hh:mm>'. Never copy 
+raw tables or prose; keep at most the 10 cheapest candidates. If the tool 
+returns nothing, return an empty array.\";\n  step_timeout(search_return_step) 
+== 300;\n  step_name(search_lodging_step) == \"Search Tucson Lodging\";\n  
+step_instruction(search_lodging_step) == \"Call search_accommodations for the 
+destination city in task_contract and pass every deterministic filter: 
+city=Tucson, required_nights=the nights value from task_contract, travelers=the 
+travelers value from task_contract, required_room_type=\\\"entire room\\\", 
+required_house_rule=\\\"\\\". If the entire-room filter leaves no candidate, 
+repeat the call once with required_room_type=\\\"not shared room\\\" while 
+keeping required_nights and travelers. Return lodging_candidates as a structured
+array of the surviving candidates with name, city, price per night as a number, 
+room type, house rules text, minimum nights and maximum occupancy. Keep at most 
+the 12 cheapest. Never return raw tables or prose.\";\n  
+step_timeout(search_lodging_step) == 300;\n  step_name(search_dining_step) == 
+\"Search Tucson Restaurants\";\n  step_instruction(search_dining_step) == \"Call
+search_restaurants for the destination city in task_contract (Tucson). Read the 
+typed JSON result and return dining_candidates as a structured array with name, 
+city, average cost per person as a number, and cuisine text. Keep at least 15 
+and at most 25 candidates, preferring low cost while retaining variety. Never 
+return raw tables or prose. If the tool returns nothing, return an empty 
+array.\";\n  step_timeout(search_dining_step) == 300;\n  
+step_name(search_attractions_step) == \"Search Tucson Attractions\";\n  
+step_instruction(search_attractions_step) == \"Call search_attractions for the 
+destination city in task_contract (Tucson). Read the typed JSON result and 
+return attraction_candidates as a structured array with the attraction name 
+exactly as returned and its city. Keep at most 15 candidates. Never return raw 
+tables or prose. If the tool returns nothing, return an empty array.\";\n  
+step_timeout(search_attractions_step) == 300;\n  step_name(assemble_step) == 
+\"Assemble Itinerary\";\n  step_instruction(assemble_step) == 
+\"./instructions/assemble.md\";\n  step_timeout(assemble_step) == 420;\n  
+step_name(validate_step) == \"Validate Plan\";\n  
+step_instruction(validate_step) == \"./instructions/validate.md\";\n  
+step_timeout(validate_step) == 300;\n  step_name(repair_step) == \"Repair And 
+Revalidate\";\n  step_instruction(repair_step) == 
+\"./instructions/repair.md\";\n  step_timeout(repair_step) == 420;\n\n  -- 
+WORKFLOW CONFIGURATION\n  max_concurrency(tucson_trip) == 5;\n  
+workflow_timeout(tucson_trip) == 2400;\n}\n"})][Tool Result: [OK] Written 14107 bytes to 
+/public/home/sychen/cxy/workflow/TravelPlanner/runs/pr26-generic-global-verifier
+-full180-20260904-r2/shard-001-012/auto_workflow/workspace/2/attempt-1/flows/tuc
+son-3day-trip/tucson_trip.g4]I'll build and run the plan now, should take a few minutes.[Tool Call: run_flow({"flow_path": "flows/tucson-3day-trip/tucson_trip.g4", 
+"inputs_json": "{\"task_contract\": {\"idx\": 2, \"query\": \"Please draw up a 
+3-day travel itinerary for one person, beginning in Oakland and heading to 
+Tucson from March 15th to March 17th, 2022, with a budget of $1,400.\", 
+\"origin\": \"Oakland\", \"destination\": \"Tucson\", \"depart_date\": 
+\"2022-03-15\", \"return_date\": \"2022-03-17\", \"days\": 3, \"travelers\": 1, 
+\"nights\": 2, \"budget\": 1400}}"})][Tool Result: Error: Tool 'run_flow' not found]I'm noticing that run_flow isn't showing up in the available tools even though it was mentioned in the instructions. Looking at what's actually available, I see compute_distance, list_cities_in_state, search_accommodations, search_attractions, search_flights, search_restaurants, and validate—but run_flow isn't among them.
+
+Since the workflow can't execute without run_flow and the contract requires returning a JSON plan even on failure, I need to fall back to producing the empty-plan object as specified in the failure clause.The workflow was authored at `flows/tucson-3day-trip/tucson_trip.g4`, but the `run_flow` executor is not available in this session, so no Agent Step could run and no candidate data could be collected. Per the contract, an unexecutable workflow yields the empty-plan object.
+
+```json
+{
+  "idx": 2,
+  "query": "Please draw up a 3-day travel itinerary for one person, beginning in Oakland and heading to Tucson from March 15th to March 17th, 2022, with a budget of $1,400.",
+  "plan": []
+}
+```

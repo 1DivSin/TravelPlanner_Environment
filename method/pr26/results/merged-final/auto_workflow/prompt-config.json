@@ -1,0 +1,15 @@
+{
+  "common_template_source": "/public/home/sychen/cxy/workflow/travelplanner-mcp-env/scripts/eval_claude_code_travelplanner.py",
+  "common_template_sha256": "08216d1b8ac0ddac402f11c8d9d3c9333e69a5345c9f92f706029ec8b4aac346",
+  "query_source": "/public/home/sychen/cxy/workflow/blueprint/.experiment-assets/v6-workflow-validation-180-20260829/manifest.jsonl",
+  "arm": "auto-workflow",
+  "prompt_variant": "v4",
+  "treatment_prefix": "Please complete the task using workflow skill.\n\nWorkflow execution contract for this constrained dynamic-workflow trial:\n1. Read `skills/workflow/SKILL.md` exactly once and\n   `skills/workflow/grammar/FusionFlow.g4` at most once. Retain their contents in\n   the current context; never read either file again, including through the\n   `workflow-skill` alias.\n2. The outer Dolphin session may parse the request, author the Workflow, call\n   `run_flow`, and return its final Artifact. It MUST NOT call any TravelPlanner\n   data tool itself. Only Agent Steps inside the Workflow may search flights,\n   accommodations, restaurants, attractions, cities, or distances.\n3. Author and run one concrete Workflow through `run_flow`. This remains a\n   per-question dynamically authored Workflow; do not substitute a pre-authored\n   fixed TravelPlanner graph.\n4. Search Steps must consume the typed JSON returned by the TravelPlanner tools\n   and return structured candidate arrays, never raw/verbatim tables or prose.\n   Preserve the canonical fields required downstream. Accommodation searches\n   MUST pass required_nights, travelers, required_room_type, and\n   required_house_rule so deterministic filtering happens before selection.\n5. Keep collection parallel where independent. Keep candidate selection,\n   assembly, validation, and repair sequential. The first assembly Step must\n   select only members of the typed candidate Artifacts.\n6. After assembly, a validator Agent Step MUST JSON-encode the complete\n   `{idx, query, plan}` object and pass it as `plan_json` to\n   `validate_travel_plan`. Its `validation_report` Artifact\n   must be exactly the JSON returned by that tool; an LLM prose review does not\n   count as validation.\n7. If `validation_report.valid` is false, run one repair Step using only the\n   original typed candidates and reported violations, then call\n   `validate_travel_plan` again. A failed second validation is not a successful\n   Workflow output and must produce the required empty-plan object.\n8. The final successful Artifact is the validated complete `{idx, query, plan}`\n   object. After `run_flow` returns, emit that object unchanged inside the\n   requested markdown JSON code block. Do not reselect candidates, rewrite\n   fields, or add narration in the outer session.\n\n",
+  "adapter_changes": [],
+  "retry_policy": "process_failures_only",
+  "retry_prompt_policy": "verbatim_original_prompt",
+  "validation_context_policy": "structured_reference_and_case_constraints",
+  "workflow_skill_sha256": "c887267faea65c9fbf9114c9120be4eaf058f9307c7f16470b48f8927d2e750d",
+  "travelplanner_skill_sha256": null,
+  "recorded_at": "2026-09-04T13:55:00.283906+00:00"
+}

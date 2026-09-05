@@ -64,9 +64,12 @@ $env:PYTHONPATH = "experiment"
 uv run python experiment/cc_pure/runner.py `
   --queries TravelPlanner/postprocess/example_evaluation.jsonl `
   --run-id cc-pure-local `
-  --key-file $env:TRAVELPLANNER_GATEWAY_KEY_FILE `
   --concurrency 3
 ```
+
+The runner uses `TRAVELPLANNER_GATEWAY_KEY_FILE` when set, otherwise its
+documented local default; pass `--key-file <path>` when an explicit path is
+preferred.
 
 The runner writes `attempts.jsonl`, `timing.json`, `gateway.json`, and
 checkpoint score/failure files under `runs/<run-id>/`. Credentials are removed

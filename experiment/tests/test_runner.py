@@ -4,7 +4,7 @@ import inspect
 import json
 from pathlib import Path
 
-import runner
+from experiment import runner
 
 
 EXACT_30 = "1,11,14,17,28,33,38,41,46,48,70,72,77,81,83,100,110,113,116,118,123,124,138,144,146,151,159,161,162,163"

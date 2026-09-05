@@ -562,7 +562,7 @@ async def execute(args: argparse.Namespace) -> Path:
     del model_root, gateway
     pending = [query for query in queries if int(query["idx"]) not in successful]
     evaluated: set[int] = set()
-    from evaluator import write_checkpoint
+    from evaluate_selected import write_checkpoint
 
     # Resume runs may already have crossed a checkpoint before this process
     # started; score it once before launching any new sessions.

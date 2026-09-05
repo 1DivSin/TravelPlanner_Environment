@@ -69,3 +69,6 @@ uv run python experiment/cc_pure/runner.py `
 runner 会在 `runs/<run-id>/` 下写入 `attempts.jsonl`、`timing.json`、
 `gateway.json` 和各 checkpoint 的评分/失败文件。子进程环境会清理凭据，持久化
 错误信息也会脱敏。
+
+CC checkpoint 和 Dynamic 的选题评分共用 `experiment/evaluate_selected.py`；
+两种实验只在 runner、提示词、选题范围和 checkpoint 调度上保留差异。

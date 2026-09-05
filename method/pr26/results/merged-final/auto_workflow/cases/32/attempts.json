@@ -1,0 +1,15 @@
+[
+  {
+    "attempt": 1,
+    "returncode": 0,
+    "elapsed_seconds": 325.43399667181075,
+    "response_sha256": "d85db6e12e7ed5ac33694a5247f29f22b8fdc05a73139b0d36217ef7b0013e24",
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ],
+    "process_failure": false,
+    "retry_eligible": false,
+    "retry_reason": null,
+    "workflow_detected": true
+  }
+]

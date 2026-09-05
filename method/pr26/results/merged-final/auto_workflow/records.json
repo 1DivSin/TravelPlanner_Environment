@@ -1,0 +1,2887 @@
+[
+  {
+    "arm": "auto-workflow",
+    "case_id": "1",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.938769+00:00",
+    "elapsed_seconds": 208.18670190987177,
+    "raw_response_path": "auto_workflow/cases/1/response.txt",
+    "answer_path": "auto_workflow/cases/1/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "53abf351919067df6e4b436cd7d111ec93141b1b5f0221286b1d1f9e9804a960",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "2",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.740386+00:00",
+    "elapsed_seconds": 228.42860163515434,
+    "raw_response_path": "auto_workflow/cases/2/response.txt",
+    "answer_path": "auto_workflow/cases/2/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "da7e784d5dc7837492d2b3b14fc8b3febad589a11da044b7f330901a2d17a2da",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "3",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:03:16.183676+00:00",
+    "elapsed_seconds": 452.07397656305693,
+    "raw_response_path": "auto_workflow/cases/3/response.txt",
+    "answer_path": "auto_workflow/cases/3/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "34916b7ced9df438ac7296924da266001d5799da0eedb78ff4619581c5943178",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "4",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:11:27.875109+00:00",
+    "elapsed_seconds": 208.36324361013249,
+    "raw_response_path": "auto_workflow/cases/4/response.txt",
+    "answer_path": "auto_workflow/cases/4/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "359156302d8582a5cd9d3e1cc7b3d8c8e51f261734ef7f660ceaca30fd808c8e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "5",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:15:15.120072+00:00",
+    "elapsed_seconds": 421.00035958294757,
+    "raw_response_path": "auto_workflow/cases/5/response.txt",
+    "answer_path": "auto_workflow/cases/5/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "42d448464dcea7a9a8147aebde8314413f18db1cefd5a14a2ca7b9f949a77d78",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "6",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:22:34.942065+00:00",
+    "elapsed_seconds": 687.8913837838918,
+    "raw_response_path": "auto_workflow/cases/6/response.txt",
+    "answer_path": "auto_workflow/cases/6/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b2a77b6ddb1d2bc45e5e358fe20b5b71ad5e0926613b41f0c1b5ae36922ed6e1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "7",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:34:22.761493+00:00",
+    "elapsed_seconds": 567.4181529891212,
+    "raw_response_path": "auto_workflow/cases/7/response.txt",
+    "answer_path": "auto_workflow/cases/7/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "c0195818fd991bff2eb5800b398a9f36cf03a0c04c1cd9e367f1dd03d8b5b5ed",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "8",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:44:10.935731+00:00",
+    "elapsed_seconds": 253.73163673188537,
+    "raw_response_path": "auto_workflow/cases/8/response.txt",
+    "answer_path": "auto_workflow/cases/8/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1c13fe722ef1a09073bc18ffa01b3e850ff55ab8ae2d81c1d783bb1f272c284d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "9",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:48:44.252976+00:00",
+    "elapsed_seconds": 490.4228796281386,
+    "raw_response_path": "auto_workflow/cases/9/response.txt",
+    "answer_path": "auto_workflow/cases/9/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "efe87d3e51486055369e893eb24a888d9052dd2bcb1a4294fbf74a72aa0cb706",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "10",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:57:33.208059+00:00",
+    "elapsed_seconds": 256.87801567511633,
+    "raw_response_path": "auto_workflow/cases/10/response.txt",
+    "answer_path": "auto_workflow/cases/10/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "de15ef0e21aa0786b88b87b21934bf833b0d0b174f200af287096f5b0903cb37",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "11",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:02:11.257277+00:00",
+    "elapsed_seconds": 187.8416104549542,
+    "raw_response_path": "auto_workflow/cases/11/response.txt",
+    "answer_path": "auto_workflow/cases/11/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "6dbc36d5a00e263a37e5073f77997a2a6c9eb6be58c9d4a5486dac602ec1209f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "12",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:05:37.906009+00:00",
+    "elapsed_seconds": 229.2689495109953,
+    "raw_response_path": "auto_workflow/cases/12/response.txt",
+    "answer_path": "auto_workflow/cases/12/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4b580b284e7a8ae06bb31efd6a7e59586c326e7346704660035160ac67061f5c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "13",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.934890+00:00",
+    "elapsed_seconds": 207.9834816348739,
+    "raw_response_path": "auto_workflow/cases/13/response.txt",
+    "answer_path": "auto_workflow/cases/13/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f90e94e845a9fe6e3ba20e6e2d02f9e53ab70518cfe332e3523f33079eba7159",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "14",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.505846+00:00",
+    "elapsed_seconds": 279.92534544109367,
+    "raw_response_path": "auto_workflow/cases/14/response.txt",
+    "answer_path": "auto_workflow/cases/14/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "cece42b38634be9b18476ff26823f2a8e5dd46eb52a6dfb117765a5d16ccdeb0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "15",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:04:07.627327+00:00",
+    "elapsed_seconds": 290.69840878178366,
+    "raw_response_path": "auto_workflow/cases/15/response.txt",
+    "answer_path": "auto_workflow/cases/15/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d490aff603371b46f8d2bebefc45e05d36878b9987c6e3eeac0dc62cd00009e9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "16",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:09:18.130421+00:00",
+    "elapsed_seconds": 278.0546465769876,
+    "raw_response_path": "auto_workflow/cases/16/response.txt",
+    "answer_path": "auto_workflow/cases/16/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "47028fd4737cbb97e388cd50c18b551fcfedd42c61796683fc21f9aa807159d3",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "17",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:14:15.339894+00:00",
+    "elapsed_seconds": 407.63188094785437,
+    "raw_response_path": "auto_workflow/cases/17/response.txt",
+    "answer_path": "auto_workflow/cases/17/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "ac3008afa041a74db7a18862b75af3e683bd44c7f455813f12e344a3c7bc67e8",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "18",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:21:22.183888+00:00",
+    "elapsed_seconds": 592.7433627019636,
+    "raw_response_path": "auto_workflow/cases/18/response.txt",
+    "answer_path": "auto_workflow/cases/18/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "3c6876117a10a67bbead2686f38a01d838d8e937f329f93da13bf964888ef00d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "19",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:31:36.000073+00:00",
+    "elapsed_seconds": 412.97733687981963,
+    "raw_response_path": "auto_workflow/cases/19/response.txt",
+    "answer_path": "auto_workflow/cases/19/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e2f23be39175f3026b1c96e4b972edfb4944ddd92951cf7cfb09e35893253157",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "20",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:38:47.567338+00:00",
+    "elapsed_seconds": 482.22751276311465,
+    "raw_response_path": "auto_workflow/cases/20/response.txt",
+    "answer_path": "auto_workflow/cases/20/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1a8454749fec6458f04c5145d56cea960d690655ee84f4243c23bc8010ae9a1a",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "21",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:47:09.255794+00:00",
+    "elapsed_seconds": 634.7966961958446,
+    "raw_response_path": "auto_workflow/cases/21/response.txt",
+    "answer_path": "auto_workflow/cases/21/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b4f65254a13c8c7c53833dc3323c157e3d2d92457e02fa87b070060b95589635",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "22",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:58:22.488575+00:00",
+    "elapsed_seconds": 394.0727119229268,
+    "raw_response_path": "auto_workflow/cases/22/response.txt",
+    "answer_path": "auto_workflow/cases/22/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9d9605740e814f29f9891053abef336e77661da9327bfbe54f0101f504f21e0c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "23",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:05:15.576736+00:00",
+    "elapsed_seconds": 310.85432629613206,
+    "raw_response_path": "auto_workflow/cases/23/response.txt",
+    "answer_path": "auto_workflow/cases/23/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "34b0a14fd82342f91bfca22a475e72fcb1576232b7f2ba4424546dc0d8889f47",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "24",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:10:45.735424+00:00",
+    "elapsed_seconds": 155.26367467083037,
+    "raw_response_path": "auto_workflow/cases/24/response.txt",
+    "answer_path": "auto_workflow/cases/24/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "074df2e501957055c82cb1d264089a2b530f606b7365931b6231b5be2c6e1e5f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "25",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.932323+00:00",
+    "elapsed_seconds": 207.96594228898175,
+    "raw_response_path": "auto_workflow/cases/25/response.txt",
+    "answer_path": "auto_workflow/cases/25/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "875ce041d2093a5b42761cdedaf8c6cb82c500a8c6dc14466e3e826c3eeb06e2",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "26",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.477522+00:00",
+    "elapsed_seconds": 507.29161553806625,
+    "raw_response_path": "auto_workflow/cases/26/response.txt",
+    "answer_path": "auto_workflow/cases/26/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "2b3ae403533e3ae72130319eeeb39a897a4c6ae416d53de4be0aff5c6fe0e4a9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "27",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:08:14.536072+00:00",
+    "elapsed_seconds": 335.8550211880356,
+    "raw_response_path": "auto_workflow/cases/27/response.txt",
+    "answer_path": "auto_workflow/cases/27/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "48f13944fa6f58651263d93f145b869e2d644553351f37707561fd012cd98e28",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "28",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:14:09.298948+00:00",
+    "elapsed_seconds": 486.25225164112635,
+    "raw_response_path": "auto_workflow/cases/28/response.txt",
+    "answer_path": "auto_workflow/cases/28/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "59eee4f2c7bb5cf52d171948f6e10497af5cc6754f27fe0627d3da6b557eb9ad",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "29",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:22:34.983099+00:00",
+    "elapsed_seconds": 1229.1264527270105,
+    "raw_response_path": "auto_workflow/cases/29/response.txt",
+    "answer_path": "auto_workflow/cases/29/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "2bba301954209145d125c15a8922507f00cb6dccf3ecf1e30bc8b55bc5e34666",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "30",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:43:43.833205+00:00",
+    "elapsed_seconds": 285.9122274299152,
+    "raw_response_path": "auto_workflow/cases/30/response.txt",
+    "answer_path": "auto_workflow/cases/30/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d1a2884fba700951ec1b8b3d98cc8aad96c42ba3e4641b5b8de765481755bfa7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "31",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:48:50.307367+00:00",
+    "elapsed_seconds": 273.9114487769548,
+    "raw_response_path": "auto_workflow/cases/31/response.txt",
+    "answer_path": "auto_workflow/cases/31/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "8b3d561b9fd029f0049274053a19542fe89d5f406213d6ccd19f1b6b93995d97",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "32",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:53:43.405767+00:00",
+    "elapsed_seconds": 325.43399667181075,
+    "raw_response_path": "auto_workflow/cases/32/response.txt",
+    "answer_path": "auto_workflow/cases/32/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d85db6e12e7ed5ac33694a5247f29f22b8fdc05a73139b0d36217ef7b0013e24",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "33",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:59:28.477811+00:00",
+    "elapsed_seconds": 382.4697231410537,
+    "raw_response_path": "auto_workflow/cases/33/response.txt",
+    "answer_path": "auto_workflow/cases/33/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "215c9b87131baf8ac2a344ccc884082cdecc39f35c676a3ec1a5045a8649185c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "34",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:06:10.998809+00:00",
+    "elapsed_seconds": 434.7751533598639,
+    "raw_response_path": "auto_workflow/cases/34/response.txt",
+    "answer_path": "auto_workflow/cases/34/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1d0fb4f4dc9418965ca9aeb2e52af8547d1afc04d91741b308ac6c1ea869dbc6",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "35",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:13:45.010707+00:00",
+    "elapsed_seconds": 245.13510268600658,
+    "raw_response_path": "auto_workflow/cases/35/response.txt",
+    "answer_path": "auto_workflow/cases/35/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "86cfad88d81991ccecd0234b10db80857f7d81f6234761d2917c76ff9c9fc8a7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "36",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:18:09.577773+00:00",
+    "elapsed_seconds": 232.6036033690907,
+    "raw_response_path": "auto_workflow/cases/36/response.txt",
+    "answer_path": "auto_workflow/cases/36/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "da8f540e895ee4ca4813307d7ee4e518c063cb6611cc6186af7866872ae236d0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "37",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.932066+00:00",
+    "elapsed_seconds": 208.31541784387082,
+    "raw_response_path": "auto_workflow/cases/37/response.txt",
+    "answer_path": "auto_workflow/cases/37/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7ee57d57dfeb9e3acc71d2bbee83ccf7ed53fc3db256a455aa75d0ecaa78051d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "38",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.853357+00:00",
+    "elapsed_seconds": 346.57545054494403,
+    "raw_response_path": "auto_workflow/cases/38/response.txt",
+    "answer_path": "auto_workflow/cases/38/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "2d827376b7d02d87433eec6157aec2ffc5c39bb75fb7e2e2e63a264b4673dea6",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "39",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:14.427994+00:00",
+    "elapsed_seconds": 232.64251828799024,
+    "raw_response_path": "auto_workflow/cases/39/response.txt",
+    "answer_path": "auto_workflow/cases/39/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "896e4f08e6f6e642390a89688a90121114317d1d32ba829bcfd12fa361b2d00f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "40",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:09:29.890868+00:00",
+    "elapsed_seconds": 303.262008263031,
+    "raw_response_path": "auto_workflow/cases/40/response.txt",
+    "answer_path": "auto_workflow/cases/40/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "61a67d1c9d83a232bc35939660b9a2e767c3ea16724fea4919aa26a61d208b38",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "41",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:14:53.374953+00:00",
+    "elapsed_seconds": 1834.2176025919616,
+    "raw_response_path": "auto_workflow/cases/41/response.txt",
+    "answer_path": "auto_workflow/cases/41/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7661f3028174f70ec7d5ac855a81a360aac2053707d45fd5e1c6c0678e0b702e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "42",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:46:05.762899+00:00",
+    "elapsed_seconds": 305.2417473047972,
+    "raw_response_path": "auto_workflow/cases/42/response.txt",
+    "answer_path": "auto_workflow/cases/42/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1b9e40513baf8a2f3844f990e0495dc192b0b40f942bfb33bad9368b23f10b19",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "43",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:51:30.343349+00:00",
+    "elapsed_seconds": 354.85321963508613,
+    "raw_response_path": "auto_workflow/cases/43/response.txt",
+    "answer_path": "auto_workflow/cases/43/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4a20dfc4d152f886046cf2492abc685821b2cba9d111afc300e68a9b6d1db306",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "44",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:57:44.396213+00:00",
+    "elapsed_seconds": 373.2317822179757,
+    "raw_response_path": "auto_workflow/cases/44/response.txt",
+    "answer_path": "auto_workflow/cases/44/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "a32fbe3e3c626006fd77db1b93ef6d64a22b3e0edaa54360b11a0a1058886be5",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "45",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:04:16.883578+00:00",
+    "elapsed_seconds": 264.9793032610323,
+    "raw_response_path": "auto_workflow/cases/45/response.txt",
+    "answer_path": "auto_workflow/cases/45/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "c53a5ee021c9db5536a076e564c5e6d41124ce01064344f2e2fb6336363e4d69",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "46",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:09:00.797117+00:00",
+    "elapsed_seconds": 324.21679877489805,
+    "raw_response_path": "auto_workflow/cases/46/response.txt",
+    "answer_path": "auto_workflow/cases/46/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "5289906c543d03b5d2e0fdc9d38721f8cf32058a88e13dabaa73ca8ab0bfcfc4",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "47",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:14:44.908068+00:00",
+    "elapsed_seconds": 287.589323105989,
+    "raw_response_path": "auto_workflow/cases/47/response.txt",
+    "answer_path": "auto_workflow/cases/47/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d29b87f972d79963ec524e56d1f5591edeb6862a1fa61808d340225a95352814",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "48",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:19:51.569848+00:00",
+    "elapsed_seconds": 391.6402823999524,
+    "raw_response_path": "auto_workflow/cases/48/response.txt",
+    "answer_path": "auto_workflow/cases/48/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d48897089efa210de1560d76795bb8ce2ee0877fbbacd4f58423d5f25a887807",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "49",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.933057+00:00",
+    "elapsed_seconds": 290.11349684605375,
+    "raw_response_path": "auto_workflow/cases/49/response.txt",
+    "answer_path": "auto_workflow/cases/49/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "a173287e1cdae1c99d5c512f6ad374a5a4f2370da42c1dd586aa80586b791781",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "50",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:00:30.632957+00:00",
+    "elapsed_seconds": 274.59544996893965,
+    "raw_response_path": "auto_workflow/cases/50/response.txt",
+    "answer_path": "auto_workflow/cases/50/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "cc4d52230a8c86f56340d7e62cde77a54256801342986cc7c1a0308faf8c7a32",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "51",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:24.314306+00:00",
+    "elapsed_seconds": 312.0995731251314,
+    "raw_response_path": "auto_workflow/cases/51/response.txt",
+    "answer_path": "auto_workflow/cases/51/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "fb5031fa296bcf9ba9d9bdd9a7a90a99eab02e4997f9fb5582cfd6364a88810b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "52",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:10:55.661951+00:00",
+    "elapsed_seconds": 362.83224561600946,
+    "raw_response_path": "auto_workflow/cases/52/response.txt",
+    "answer_path": "auto_workflow/cases/52/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "8614cc9bd1799b180918c12f34d1345d4c54da108d2749375997e38dd9922d46",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "53",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:17:18.657423+00:00",
+    "elapsed_seconds": 818.8450289089233,
+    "raw_response_path": "auto_workflow/cases/53/response.txt",
+    "answer_path": "auto_workflow/cases/53/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1da1f845f0096c991742ac0fa15d8636c8f618ce0a8c917604122de630c6bc6d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "54",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:31:16.935616+00:00",
+    "elapsed_seconds": 836.649097096175,
+    "raw_response_path": "auto_workflow/cases/54/response.txt",
+    "answer_path": "auto_workflow/cases/54/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "6bccd750aa001e061a8b9b5cc320bf60e048fdb29885b0c450de1e79c15f490a",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "55",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:45:51.836483+00:00",
+    "elapsed_seconds": 353.91359495115466,
+    "raw_response_path": "auto_workflow/cases/55/response.txt",
+    "answer_path": "auto_workflow/cases/55/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "bac0936e3ddd51537d93f1f3e27e37553029ecb91d0ddfa8797ba2060a013dd5",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "56",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:52:05.392184+00:00",
+    "elapsed_seconds": 314.7449046098627,
+    "raw_response_path": "auto_workflow/cases/56/response.txt",
+    "answer_path": "auto_workflow/cases/56/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b4d6c24828c4a5bf9c3c3e969289ea1acb28a1995a7f58ea5e7f83cfa1e40d81",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "57",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:57:39.265435+00:00",
+    "elapsed_seconds": 362.50787940388545,
+    "raw_response_path": "auto_workflow/cases/57/response.txt",
+    "answer_path": "auto_workflow/cases/57/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d4ab7ba6dc2a80fd24d4d3c13754f172e6a2780d59f47b61f7a79b811e2f7483",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "58",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:04:01.005232+00:00",
+    "elapsed_seconds": 237.78782753599808,
+    "raw_response_path": "auto_workflow/cases/58/response.txt",
+    "answer_path": "auto_workflow/cases/58/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f882f8e73e925c10596bfeb3a8b1decbb69c11171609a925593df951beda9dd1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "59",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:08:24.020483+00:00",
+    "elapsed_seconds": 553.8413910560776,
+    "raw_response_path": "auto_workflow/cases/59/response.txt",
+    "answer_path": "auto_workflow/cases/59/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b1d5ddf6349fb2b5ac6b9c617099e36cf3c7da75ce6b4a3e7417bc40c936540b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "60",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:18:16.313051+00:00",
+    "elapsed_seconds": 525.6708045699634,
+    "raw_response_path": "auto_workflow/cases/60/response.txt",
+    "answer_path": "auto_workflow/cases/60/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "2c30382337f135edeab7ebb002d23d57bb8017214f4aef27fd9edb1deb8dc8bc",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "61",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.932716+00:00",
+    "elapsed_seconds": 208.1817607509438,
+    "raw_response_path": "auto_workflow/cases/61/response.txt",
+    "answer_path": "auto_workflow/cases/61/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "501028b1eec936f1c123f2e2cc4897832a37f964a213452cebef2a72da0b700d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "62",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.694907+00:00",
+    "elapsed_seconds": 232.62081010616384,
+    "raw_response_path": "auto_workflow/cases/62/response.txt",
+    "answer_path": "auto_workflow/cases/62/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "59b6406c14240eb3699e1ccdae04b36622149d5790c7e35bc8b5bd5981e4a281",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "63",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:03:20.552420+00:00",
+    "elapsed_seconds": 472.982919247821,
+    "raw_response_path": "auto_workflow/cases/63/response.txt",
+    "answer_path": "auto_workflow/cases/63/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9b10afa48bd56e330d0058afdcbec841b2f4ba0855d5f7eaf627468664eb8837",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "64",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:11:52.176053+00:00",
+    "elapsed_seconds": 291.58513202890754,
+    "raw_response_path": "auto_workflow/cases/64/response.txt",
+    "answer_path": "auto_workflow/cases/64/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "ed45e2bc464bd076636914ddfd5c973a4cd7fd8aab9fdfc95168d02fb15794f7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "65",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:17:03.320371+00:00",
+    "elapsed_seconds": 520.0770282789599,
+    "raw_response_path": "auto_workflow/cases/65/response.txt",
+    "answer_path": "auto_workflow/cases/65/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f4249552f56026a3296c44822bcd2f3249f70bedb3c2af2e82cff7a8da96e82b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "66",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:26:02.534773+00:00",
+    "elapsed_seconds": 531.8002791688778,
+    "raw_response_path": "auto_workflow/cases/66/response.txt",
+    "answer_path": "auto_workflow/cases/66/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9ab885d24209a7cb71833c57e3604e3d8834be824e653ba18437eea4773352a1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "67",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:35:14.176235+00:00",
+    "elapsed_seconds": 301.3128886069171,
+    "raw_response_path": "auto_workflow/cases/67/response.txt",
+    "answer_path": "auto_workflow/cases/67/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f4fa013950187cfe8c22a37692a85adfc39e2bb64ca53c4e74714439a046bd0c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "68",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:34.711235+00:00",
+    "elapsed_seconds": 408.0518961159978,
+    "raw_response_path": "auto_workflow/cases/68/response.txt",
+    "answer_path": "auto_workflow/cases/68/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "db2035c041a1bc9c5e9a11c0ca3dfc80624b45b8ea7ac3ba4ba4b87115b5a85f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "69",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:47:42.087316+00:00",
+    "elapsed_seconds": 231.9147297530435,
+    "raw_response_path": "auto_workflow/cases/69/response.txt",
+    "answer_path": "auto_workflow/cases/69/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "3a51213d1aae995ef02e7b68acd7dd7eba0258498014f0a886f82d71e384c631",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "70",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:51:54.242892+00:00",
+    "elapsed_seconds": 182.7796886852011,
+    "raw_response_path": "auto_workflow/cases/70/response.txt",
+    "answer_path": "auto_workflow/cases/70/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "8ed7749cab5df2dccc978954c7e71c854639bb7aac13e3ba0086cf07ff7858f0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "71",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:55:16.096463+00:00",
+    "elapsed_seconds": 304.1953769980464,
+    "raw_response_path": "auto_workflow/cases/71/response.txt",
+    "answer_path": "auto_workflow/cases/71/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1893619f835939f04811b45970dfa1bde245fd178182bb31cd164b22da34a09c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "72",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:00:39.674117+00:00",
+    "elapsed_seconds": 262.2586308119353,
+    "raw_response_path": "auto_workflow/cases/72/response.txt",
+    "answer_path": "auto_workflow/cases/72/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "46d50c9d13230be1fb08d736685ff11b3403215ed2b0eacd3928857c7136cdbe",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "73",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.932354+00:00",
+    "elapsed_seconds": 251.28674024995416,
+    "raw_response_path": "auto_workflow/cases/73/response.txt",
+    "answer_path": "auto_workflow/cases/73/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "c6b6d2966be67159fe838b71a29bb984cb6c494974cbd9e67c357ff3ef4d2766",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "74",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:51.854329+00:00",
+    "elapsed_seconds": 210.4921924509108,
+    "raw_response_path": "auto_workflow/cases/74/response.txt",
+    "answer_path": "auto_workflow/cases/74/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "a258c9f9f7fbfdb8849e2b926f85ec5f3965bc6f976f0db86b6592a9ff8d1a5c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "75",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:03:41.745960+00:00",
+    "elapsed_seconds": 294.95314610982314,
+    "raw_response_path": "auto_workflow/cases/75/response.txt",
+    "answer_path": "auto_workflow/cases/75/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "0fa992ecac223c673437ebdfa95e19d47f0195f1f6c89ef796b73b0e2b1dae70",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "76",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:08:56.311680+00:00",
+    "elapsed_seconds": 211.53850885899737,
+    "raw_response_path": "auto_workflow/cases/76/response.txt",
+    "answer_path": "auto_workflow/cases/76/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4dc34db28f71619ff327e16d2a99033da13eceb20347ea10df2e5f7d3b1baf64",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "77",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:12:47.488163+00:00",
+    "elapsed_seconds": 265.5629923751112,
+    "raw_response_path": "auto_workflow/cases/77/response.txt",
+    "answer_path": "auto_workflow/cases/77/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "fc833a8ce3b193460f860bf135fc167d41e64816439d079775042c4970ffb760",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "78",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:17:32.300989+00:00",
+    "elapsed_seconds": 359.86852448806167,
+    "raw_response_path": "auto_workflow/cases/78/response.txt",
+    "answer_path": "auto_workflow/cases/78/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b332b2a33d262fe560e7813f51ad1e9722a4d0855463675b838598e1a0a2aefe",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "79",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:23:51.382330+00:00",
+    "elapsed_seconds": 833.0342896098737,
+    "raw_response_path": "auto_workflow/cases/79/response.txt",
+    "answer_path": "auto_workflow/cases/79/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "703c7d3a251f21911fcec19fd03b009016d2c8a4daf1680037183fa9e9ecd85c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "80",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:38:22.089234+00:00",
+    "elapsed_seconds": 500.50105028087273,
+    "raw_response_path": "auto_workflow/cases/80/response.txt",
+    "answer_path": "auto_workflow/cases/80/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "efd05dc0bf04f46028dad6d54c00744eb34db50caf9d80500fe833e940965399",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "81",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:47:13.892407+00:00",
+    "elapsed_seconds": 247.054718635045,
+    "raw_response_path": "auto_workflow/cases/81/response.txt",
+    "answer_path": "auto_workflow/cases/81/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "5889b1384cebb890c358f0ea9d1ff23dc45a7b98cca62f7793ea5770604d90b3",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "82",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:51:40.138451+00:00",
+    "elapsed_seconds": 248.05280512198806,
+    "raw_response_path": "auto_workflow/cases/82/response.txt",
+    "answer_path": "auto_workflow/cases/82/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "dbc7920f62e897986e4ba1c861443ed02ee1894a3c1da9ab7890cb895a697427",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "83",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:56:07.255950+00:00",
+    "elapsed_seconds": 701.0519272470847,
+    "raw_response_path": "auto_workflow/cases/83/response.txt",
+    "answer_path": "auto_workflow/cases/83/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "66713ed3c69c22fdd9007fd896f1238017610e8b34fcb711c7085390f321880a",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "84",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:08:26.997307+00:00",
+    "elapsed_seconds": 334.47500621690415,
+    "raw_response_path": "auto_workflow/cases/84/response.txt",
+    "answer_path": "auto_workflow/cases/84/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7ff1f104df0d9e9e434a1070d71f6dd172d6583527fab1d5c1e79c0bef351f0d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "85",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.933303+00:00",
+    "elapsed_seconds": 308.5289479929488,
+    "raw_response_path": "auto_workflow/cases/85/response.txt",
+    "answer_path": "auto_workflow/cases/85/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "cab574d12248d56ab0114071899ded8d7678ca11651ec3c3b5a6b8debc6692bf",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "86",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:00:49.058307+00:00",
+    "elapsed_seconds": 263.01228149980307,
+    "raw_response_path": "auto_workflow/cases/86/response.txt",
+    "answer_path": "auto_workflow/cases/86/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "6ffa5affe2a5d087e5107a514d9c6ce3758de80d096ac9451744f432e8d6c649",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "87",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:31.102593+00:00",
+    "elapsed_seconds": 659.4200833521318,
+    "raw_response_path": "auto_workflow/cases/87/response.txt",
+    "answer_path": "auto_workflow/cases/87/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "446442aaf484875d176d95aedc730b2649c2d1e21aa64663c0a272a9ba5c07a2",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "88",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:17:09.082695+00:00",
+    "elapsed_seconds": 846.7176453040447,
+    "raw_response_path": "auto_workflow/cases/88/response.txt",
+    "answer_path": "auto_workflow/cases/88/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "8428a5f0b712b4879048e837e8dbc2465fe4aa3e18a55c1bc37ca099e4ffad23",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "89",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:31:34.821054+00:00",
+    "elapsed_seconds": 521.6355183341075,
+    "raw_response_path": "auto_workflow/cases/89/response.txt",
+    "answer_path": "auto_workflow/cases/89/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f82ef6eb526b1e4d5466daa85d4f41e9488aec428352612b158cf4d2d4878fc0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "90",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:35.905417+00:00",
+    "elapsed_seconds": 456.3301421061624,
+    "raw_response_path": "auto_workflow/cases/90/response.txt",
+    "answer_path": "auto_workflow/cases/90/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "de5bc744fef1458a14a8e5354c813afccb15150ffb5899652d8ea8b0021de156",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "91",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:48:30.908618+00:00",
+    "elapsed_seconds": 334.1332071512006,
+    "raw_response_path": "auto_workflow/cases/91/response.txt",
+    "answer_path": "auto_workflow/cases/91/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9d2d20a37d54b13f977283a7e13d1af50a3a04b0329d8031240132b90dc6859c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "92",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:54:25.039890+00:00",
+    "elapsed_seconds": 298.19272648799233,
+    "raw_response_path": "auto_workflow/cases/92/response.txt",
+    "answer_path": "auto_workflow/cases/92/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "295b492effb8fbcc10fc45900973d82527925ad2f740b0cb34c4d1b4c497e5e8",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "93",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:59:42.926183+00:00",
+    "elapsed_seconds": 290.0677844390739,
+    "raw_response_path": "auto_workflow/cases/93/response.txt",
+    "answer_path": "auto_workflow/cases/93/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "00f0dc975f2fe1f66edc12711040d901887a01418ba3ffb1c8287cf6894055c5",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "94",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:04:53.118587+00:00",
+    "elapsed_seconds": 304.23753666318953,
+    "raw_response_path": "auto_workflow/cases/94/response.txt",
+    "answer_path": "auto_workflow/cases/94/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "db23f4bbcf79cdea9e6460b129c7a184815705e1826ff95f27ed10475562d295",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "95",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:10:17.323431+00:00",
+    "elapsed_seconds": 305.4514096188359,
+    "raw_response_path": "auto_workflow/cases/95/response.txt",
+    "answer_path": "auto_workflow/cases/95/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "747845c43f6453e1de0ec0ee93593091403dbadf4885578d25bc8f138dbdc4f9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "96",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:15:42.899545+00:00",
+    "elapsed_seconds": 622.5762230621185,
+    "raw_response_path": "auto_workflow/cases/96/response.txt",
+    "answer_path": "auto_workflow/cases/96/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f27bdcf1b633365adc543c044650fd43d7f8fb6933dfc61fc4dd4525d48562cd",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "97",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.930220+00:00",
+    "elapsed_seconds": 552.9401465491392,
+    "raw_response_path": "auto_workflow/cases/97/response.txt",
+    "answer_path": "auto_workflow/cases/97/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e750245e450a5ba830457a6a20ecb232c21a19f64080be22c83c6ff8289857aa",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "98",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:14.570149+00:00",
+    "elapsed_seconds": 557.3050129632466,
+    "raw_response_path": "auto_workflow/cases/98/response.txt",
+    "answer_path": "auto_workflow/cases/98/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "220ca44b381857f86f4b7dce3035e2c486b94a18697afd36a1515dabc5c01008",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "99",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:15:13.875077+00:00",
+    "elapsed_seconds": 462.87308032112196,
+    "raw_response_path": "auto_workflow/cases/99/response.txt",
+    "answer_path": "auto_workflow/cases/99/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "006fdaf0c922ad0e9fe7476b862b2936e4c0c36c306408f4a4c475525c88108e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "100",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:23:15.684115+00:00",
+    "elapsed_seconds": 648.2001682389528,
+    "raw_response_path": "auto_workflow/cases/100/response.txt",
+    "answer_path": "auto_workflow/cases/100/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "0b1dd9fad85aa78a13cafe55ef235f9af2187ea7b67e7646bf6273141a359a7d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "101",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:34:23.053945+00:00",
+    "elapsed_seconds": 375.86167966597714,
+    "raw_response_path": "auto_workflow/cases/101/response.txt",
+    "answer_path": "auto_workflow/cases/101/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b05e10d2b2a05e846e8cde7fd2fab4f0c931fad2ae60f10d06c3ba87a28c549d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "102",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:59.525565+00:00",
+    "elapsed_seconds": 470.42791390791535,
+    "raw_response_path": "auto_workflow/cases/102/response.txt",
+    "answer_path": "auto_workflow/cases/102/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "14ee800a9ae5070d53af851f2e2a7ceb06318fea00e20b106f797374dffa77bf",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "103",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:49:09.059318+00:00",
+    "elapsed_seconds": 269.08788660308346,
+    "raw_response_path": "auto_workflow/cases/103/response.txt",
+    "answer_path": "auto_workflow/cases/103/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "79dbc6f3785076378cdd96e97122c6f98e2882486a05d5cf772c2dd90ef259fb",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "104",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:53:57.916723+00:00",
+    "elapsed_seconds": 643.7655676358845,
+    "raw_response_path": "auto_workflow/cases/104/response.txt",
+    "answer_path": "auto_workflow/cases/104/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f26d2873c2b3c7dd486511f9127de87c64ddb8cb7d55a055a88f41fcea942b16",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "105",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:05:20.996497+00:00",
+    "elapsed_seconds": 393.1294534250628,
+    "raw_response_path": "auto_workflow/cases/105/response.txt",
+    "answer_path": "auto_workflow/cases/105/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d6a7bf8a6bdc2b3f5ce67718b3327fa83c2bb9833223eeb87429096b24a088d5",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "106",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:12:13.389422+00:00",
+    "elapsed_seconds": 344.6384347130079,
+    "raw_response_path": "auto_workflow/cases/106/response.txt",
+    "answer_path": "auto_workflow/cases/106/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "a82e9899dad10bb193b3728fc30797ba85a54dfc1dceb2458e9ad6523af5f0b8",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "107",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:18:17.619586+00:00",
+    "elapsed_seconds": 396.04310358385555,
+    "raw_response_path": "auto_workflow/cases/107/response.txt",
+    "answer_path": "auto_workflow/cases/107/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "97d3dbb20c07e17646c875d48d333123dd851ee60d0ba157f2c9ebe2edb64813",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "108",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:25:13.067871+00:00",
+    "elapsed_seconds": 250.29231588798575,
+    "raw_response_path": "auto_workflow/cases/108/response.txt",
+    "answer_path": "auto_workflow/cases/108/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4a290a19befa836d10c001557aa75a16aa7229381ed7175884da0ffef004acf5",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "109",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.854876+00:00",
+    "elapsed_seconds": 321.8296031591017,
+    "raw_response_path": "auto_workflow/cases/109/response.txt",
+    "answer_path": "auto_workflow/cases/109/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "17310c640315276d04d6a650262157b75410f73528120f0f9ca57ba3cae6d161",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "110",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:01:02.284176+00:00",
+    "elapsed_seconds": 356.79130718507804,
+    "raw_response_path": "auto_workflow/cases/110/response.txt",
+    "answer_path": "auto_workflow/cases/110/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f2f92a80a6ca755c2a67df035d9c98856813128f266ce7be6f20acfe7256ee18",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "111",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:07:18.216858+00:00",
+    "elapsed_seconds": 232.45919012185186,
+    "raw_response_path": "auto_workflow/cases/111/response.txt",
+    "answer_path": "auto_workflow/cases/111/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9bacf0a5d92a3859d7641c2cf7c300c6f98e308d8b6de1d6c481f3292a790a7c",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "112",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:11:29.467112+00:00",
+    "elapsed_seconds": 438.95668587996624,
+    "raw_response_path": "auto_workflow/cases/112/response.txt",
+    "answer_path": "auto_workflow/cases/112/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "96a9a1f73c39a15ba0dc31c6238bd113b608539828ab0754461fb247afcabbeb",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "113",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:19:07.227474+00:00",
+    "elapsed_seconds": 805.950330862077,
+    "raw_response_path": "auto_workflow/cases/113/response.txt",
+    "answer_path": "auto_workflow/cases/113/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "977d25a7a7658f274bb8108af77b8e94d69e96df41b0616b965aee157850ebe7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "114",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:32:52.276903+00:00",
+    "elapsed_seconds": 690.7396315308288,
+    "raw_response_path": "auto_workflow/cases/114/response.txt",
+    "answer_path": "auto_workflow/cases/114/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "0c0c0d6d8f04ada0715a8b5842f5056117e62b5e3ee37719bdf0ddd35a792f81",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "115",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:44:42.336117+00:00",
+    "elapsed_seconds": 290.34400444012135,
+    "raw_response_path": "auto_workflow/cases/115/response.txt",
+    "answer_path": "auto_workflow/cases/115/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "ef98ec9f46f87cecc30a319ca3539e361b4eeb2335045295612ab2d0590d867d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "116",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:49:51.770648+00:00",
+    "elapsed_seconds": 442.3851325940341,
+    "raw_response_path": "auto_workflow/cases/116/response.txt",
+    "answer_path": "auto_workflow/cases/116/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "bb77c47c20b3a2e425d70210bcbbc958df66b69d0e09f4b400bae8d33c2c6994",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "117",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:57:33.287193+00:00",
+    "elapsed_seconds": 366.6100881139282,
+    "raw_response_path": "auto_workflow/cases/117/response.txt",
+    "answer_path": "auto_workflow/cases/117/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "57503946bbdc614b212aea1242e2b67bf911e0960a36a11b4be464ae5e15dcb9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "118",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:04:01.022371+00:00",
+    "elapsed_seconds": 363.60398479900323,
+    "raw_response_path": "auto_workflow/cases/118/response.txt",
+    "answer_path": "auto_workflow/cases/118/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "a19d394560c5b76a750364cb9443b21724ba009e25fe7ace31cacf87b36b4fa7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "119",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:10:29.975066+00:00",
+    "elapsed_seconds": 522.5171038496774,
+    "raw_response_path": "auto_workflow/cases/119/response.txt",
+    "answer_path": "auto_workflow/cases/119/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "78f289f415ab7b1177e6b745ec1b04fa9deeac26cc24a51bab85f41c2036ac7e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "120",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:19:51.008046+00:00",
+    "elapsed_seconds": 391.4514527141582,
+    "raw_response_path": "auto_workflow/cases/120/response.txt",
+    "answer_path": "auto_workflow/cases/120/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "509fd3b3a604a3c1a97fe245c66438f0eb5f56bba656c855bbaab9192b6da422",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "121",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.930927+00:00",
+    "elapsed_seconds": 208.09403370204382,
+    "raw_response_path": "auto_workflow/cases/121/response.txt",
+    "answer_path": "auto_workflow/cases/121/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "6219c0fa74971518fa1e2cc593d7e3ea93ac85d09367fb92bf47b90ac86b3f60",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "122",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:59:08.818455+00:00",
+    "elapsed_seconds": 173.37266773590818,
+    "raw_response_path": "auto_workflow/cases/122/response.txt",
+    "answer_path": "auto_workflow/cases/122/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1cac7d265ece0b811de934a95aca07b599de57191c3eb48dd4f44a60b1829ce9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "123",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:02:21.179513+00:00",
+    "elapsed_seconds": 256.1483486050274,
+    "raw_response_path": "auto_workflow/cases/123/response.txt",
+    "answer_path": "auto_workflow/cases/123/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "aa50257660a0804a8c0da2e6f1a6144930828d9bdb915ac00580985d43f5d770",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "124",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:06:56.130074+00:00",
+    "elapsed_seconds": 220.30232697818428,
+    "raw_response_path": "auto_workflow/cases/124/response.txt",
+    "answer_path": "auto_workflow/cases/124/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4c9799f8caf9086b67d43893bed8d3c2ad422023d2fb4cfc0559b72a411ffdaa",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "125",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:10:55.852750+00:00",
+    "elapsed_seconds": 264.0062878020108,
+    "raw_response_path": "auto_workflow/cases/125/response.txt",
+    "answer_path": "auto_workflow/cases/125/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d020e55599007c4b64256203e987aa7a509e9b5f787be056b5f7539fd3a82f04",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "126",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:15:39.700385+00:00",
+    "elapsed_seconds": 1084.9881445989013,
+    "raw_response_path": "auto_workflow/cases/126/response.txt",
+    "answer_path": "auto_workflow/cases/126/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "99cfcc02fc47137c70a9e32a6431a172660359b5402b4f854a2316e1214b6424",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "127",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:34:22.830492+00:00",
+    "elapsed_seconds": 332.0399018251337,
+    "raw_response_path": "auto_workflow/cases/127/response.txt",
+    "answer_path": "auto_workflow/cases/127/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "431a4a999be9144054abbd2b404ba891487898efcb772c376731218029b5e486",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "128",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:15.605197+00:00",
+    "elapsed_seconds": 353.3929489220027,
+    "raw_response_path": "auto_workflow/cases/128/response.txt",
+    "answer_path": "auto_workflow/cases/128/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f0569987ce914ceeb0ce5a3b969f35559f1f5a3fcd3d9c145937e53d32cf03a7",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "129",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:46:28.428043+00:00",
+    "elapsed_seconds": 276.792339294916,
+    "raw_response_path": "auto_workflow/cases/129/response.txt",
+    "answer_path": "auto_workflow/cases/129/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1b0dfbd5236f9d80e7806ed6e4247b23d31aa07dc9f499ea0886c001cd2f7d01",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "130",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:51:25.431435+00:00",
+    "elapsed_seconds": 190.65787240699865,
+    "raw_response_path": "auto_workflow/cases/130/response.txt",
+    "answer_path": "auto_workflow/cases/130/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e6220b79af61b8c8b3644b5cdf2c6fd8ccc7263c9df62a9728477321ae2b8ef0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "131",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:54:55.231986+00:00",
+    "elapsed_seconds": 306.5561010041274,
+    "raw_response_path": "auto_workflow/cases/131/response.txt",
+    "answer_path": "auto_workflow/cases/131/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "3d94e9245be112c8136b5f95ed9b7c085cb0a08142e5776881366b8d1bc58b7d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "132",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:00:20.870805+00:00",
+    "elapsed_seconds": 282.79271188611165,
+    "raw_response_path": "auto_workflow/cases/132/response.txt",
+    "answer_path": "auto_workflow/cases/132/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "23137fe8ee8e9e54a6bdfde013112e257be946f2dd5c511ee42b1e6d860bbcd6",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "133",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.932818+00:00",
+    "elapsed_seconds": 266.6907022499945,
+    "raw_response_path": "auto_workflow/cases/133/response.txt",
+    "answer_path": "auto_workflow/cases/133/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f0a3f24dad2090f15bf1d7ef6b34de5ef3765007bb1606252fdf8d64e8514a0b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "134",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:00:07.167145+00:00",
+    "elapsed_seconds": 287.21276879985817,
+    "raw_response_path": "auto_workflow/cases/134/response.txt",
+    "answer_path": "auto_workflow/cases/134/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d1952c04bb4619645800777738e6d9058f07f8bdb08e44c7918f8f9e43377ed0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "135",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:14.575197+00:00",
+    "elapsed_seconds": 267.14966076705605,
+    "raw_response_path": "auto_workflow/cases/135/response.txt",
+    "answer_path": "auto_workflow/cases/135/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "28d5fb321f81fd2bf2ce1b9f3c0070029687da7223f4c4a4ea9de2c1aa064509",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "136",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:10:04.348621+00:00",
+    "elapsed_seconds": 282.05095742922276,
+    "raw_response_path": "auto_workflow/cases/136/response.txt",
+    "answer_path": "auto_workflow/cases/136/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "95ed71f458dc0791c617f44ce8efaaf7ef059599b219f58b586aee9dd483eed4",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "137",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:15:05.688667+00:00",
+    "elapsed_seconds": 1467.8229989742395,
+    "raw_response_path": "auto_workflow/cases/137/response.txt",
+    "answer_path": "auto_workflow/cases/137/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "c656d1d0fc56645c3083a31de068fc63b8a0721860489b3a41aebf05c34de84d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "138",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:11.631883+00:00",
+    "elapsed_seconds": 401.4867990661878,
+    "raw_response_path": "auto_workflow/cases/138/response.txt",
+    "answer_path": "auto_workflow/cases/138/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "f242f7276f90e2fb22c9a8011e181cee8494388e94af2475ee608f3ad7c33c37",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "139",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:47:12.387527+00:00",
+    "elapsed_seconds": 237.14583594398573,
+    "raw_response_path": "auto_workflow/cases/139/response.txt",
+    "answer_path": "auto_workflow/cases/139/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "959b1573d4c9ad7a9920a5658de587e77ab4e4924910abd3c37df5d9d50207fd",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "140",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:51:28.752937+00:00",
+    "elapsed_seconds": 276.9576574668754,
+    "raw_response_path": "auto_workflow/cases/140/response.txt",
+    "answer_path": "auto_workflow/cases/140/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "56a49e0092a56a24faf75567e87e1c13b6cf22690bd8c1b0c08aa21f54a57a12",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "141",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:56:25.010078+00:00",
+    "elapsed_seconds": 319.50436041806825,
+    "raw_response_path": "auto_workflow/cases/141/response.txt",
+    "answer_path": "auto_workflow/cases/141/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "743ded1a4108061dc64b7c912122f15dea90c1f574ceb08e4cfd3b543ccbb725",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "142",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:02:04.403967+00:00",
+    "elapsed_seconds": 359.13520982000045,
+    "raw_response_path": "auto_workflow/cases/142/response.txt",
+    "answer_path": "auto_workflow/cases/142/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "c44d628cefdc6dc385f1d46afda468592c9d3ce88d7dcbf7e3d7d0c20862c3b1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "143",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:08:22.652289+00:00",
+    "elapsed_seconds": 281.37702775001526,
+    "raw_response_path": "auto_workflow/cases/143/response.txt",
+    "answer_path": "auto_workflow/cases/143/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "03b91ba9a75a60306f296a5cdb436d10b2131338ba1d4a6fb2e8492f123506f1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "144",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:13:24.292028+00:00",
+    "elapsed_seconds": 257.3831157980021,
+    "raw_response_path": "auto_workflow/cases/144/response.txt",
+    "answer_path": "auto_workflow/cases/144/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9ffd90aadb46d4eb422ce9326a8dc4bde5ffac249c30ab9c84b50ecda25b9f11",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "145",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.924157+00:00",
+    "elapsed_seconds": 309.56067067198455,
+    "raw_response_path": "auto_workflow/cases/145/response.txt",
+    "answer_path": "auto_workflow/cases/145/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "72a8df1ed7002188857f6fac8064f05b5f5626ab21a19047ada15209eac1a33e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "146",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:00:50.099870+00:00",
+    "elapsed_seconds": 330.0643411600031,
+    "raw_response_path": "auto_workflow/cases/146/response.txt",
+    "answer_path": "auto_workflow/cases/146/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "30cba469e1ba50ff2590d04ff7c7d7b46b0b9e010542ac3425c611f3f593a621",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "147",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:06:38.164651+00:00",
+    "elapsed_seconds": 260.7741658540908,
+    "raw_response_path": "auto_workflow/cases/147/response.txt",
+    "answer_path": "auto_workflow/cases/147/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "5735de68f47bea70550c546c8dad1ff898c90a6f812bafedc8ad6e8ed720177b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "148",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:11:18.364620+00:00",
+    "elapsed_seconds": 312.30186318489723,
+    "raw_response_path": "auto_workflow/cases/148/response.txt",
+    "answer_path": "auto_workflow/cases/148/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "bb2392be3194d0b4809146b6b13f0c59ca85041bda7f6faad0630e3444503c49",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "149",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:16:49.633327+00:00",
+    "elapsed_seconds": 396.69355607102625,
+    "raw_response_path": "auto_workflow/cases/149/response.txt",
+    "answer_path": "auto_workflow/cases/149/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e36f0ce5cf785a31ae88311fdc4b7c6c968d4314d7380c00bb9e05bcc4375228",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "150",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:23:45.683002+00:00",
+    "elapsed_seconds": 528.2916022250429,
+    "raw_response_path": "auto_workflow/cases/150/response.txt",
+    "answer_path": "auto_workflow/cases/150/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "46c71511889d2ed1c2f3400b248eb7fd501bcadf16bc0001b43679e00ce036f6",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "151",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:32:53.085822+00:00",
+    "elapsed_seconds": 516.5112795680761,
+    "raw_response_path": "auto_workflow/cases/151/response.txt",
+    "answer_path": "auto_workflow/cases/151/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e0a9c0f7d98fd0c044217445ecb0761700037befdf10fa3b2e78f389b47e10eb",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "152",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:41:48.257296+00:00",
+    "elapsed_seconds": 407.8915412139613,
+    "raw_response_path": "auto_workflow/cases/152/response.txt",
+    "answer_path": "auto_workflow/cases/152/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "1a8de509a3dc42dca1b5988d19226ae4bc00903034e77bb222e8b72aebdcf720",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "153",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:48:55.556651+00:00",
+    "elapsed_seconds": 508.6369569711387,
+    "raw_response_path": "auto_workflow/cases/153/response.txt",
+    "answer_path": "auto_workflow/cases/153/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "474bd1c5959e47e765f0b376469f3f0fab9d2330d436d3030599db2d0fdc327f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "154",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:58:02.956386+00:00",
+    "elapsed_seconds": 234.82749954378232,
+    "raw_response_path": "auto_workflow/cases/154/response.txt",
+    "answer_path": "auto_workflow/cases/154/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "383bed97901b0eb4fdddc18ed0d2cce9298dc81744de42c5257d55a52761b7c9",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "155",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:02:17.002387+00:00",
+    "elapsed_seconds": 429.9164899541065,
+    "raw_response_path": "auto_workflow/cases/155/response.txt",
+    "answer_path": "auto_workflow/cases/155/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "9b8d85567b421e948ff0830e382dae05f8ab788702049f23297f7b198a7cdac6",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "156",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:09:46.050117+00:00",
+    "elapsed_seconds": 204.77984722401015,
+    "raw_response_path": "auto_workflow/cases/156/response.txt",
+    "answer_path": "auto_workflow/cases/156/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "ffa3b1183d88f4a6155c9474d428c29f3e4d114b1e0949ff6bd894e0370c6c70",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "157",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.930669+00:00",
+    "elapsed_seconds": 320.697392093949,
+    "raw_response_path": "auto_workflow/cases/157/response.txt",
+    "answer_path": "auto_workflow/cases/157/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "8a772c6199d5103d16e5a8bead02ba4190bae8ab0278059b3c6cda92cd4e9136",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "158",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:01:01.221584+00:00",
+    "elapsed_seconds": 234.47938185697421,
+    "raw_response_path": "auto_workflow/cases/158/response.txt",
+    "answer_path": "auto_workflow/cases/158/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7e87063c613ecc51a690bf2f144282f9bd9611742b43c1901b344525380efc68",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "159",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:14.724655+00:00",
+    "elapsed_seconds": 318.5818590261042,
+    "raw_response_path": "auto_workflow/cases/159/response.txt",
+    "answer_path": "auto_workflow/cases/159/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "cad0d476973f3341c5c74b438365fd424ccd41e249dc12f8df34df3c2c37938f",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "160",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:10:55.904664+00:00",
+    "elapsed_seconds": 381.2302742181346,
+    "raw_response_path": "auto_workflow/cases/160/response.txt",
+    "answer_path": "auto_workflow/cases/160/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "62b9128c2cc818b323dcbf718497312c01f715ae32f7a27e56d677699dee0e79",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "161",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:17:36.946760+00:00",
+    "elapsed_seconds": 500.91148352320306,
+    "raw_response_path": "auto_workflow/cases/161/response.txt",
+    "answer_path": "auto_workflow/cases/161/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "3de201a8fe1544df02bed8f226e6ed38c6343c8593ae0b4c3e579fe14748e18d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "162",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:26:16.670568+00:00",
+    "elapsed_seconds": 815.6148647358641,
+    "raw_response_path": "auto_workflow/cases/162/response.txt",
+    "answer_path": "auto_workflow/cases/162/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "49d4962a54f30a912b741238dff1d40056f7651923729c501e3b809ee26c09a0",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "163",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:40:11.722015+00:00",
+    "elapsed_seconds": 853.2099677112419,
+    "raw_response_path": "auto_workflow/cases/163/response.txt",
+    "answer_path": "auto_workflow/cases/163/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "30f45be807c18c7e4cffb0659efe27206eb160d5c87433bab634d9decf3fac4d",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 3,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "164",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:55:22.613754+00:00",
+    "elapsed_seconds": 305.39350942499004,
+    "raw_response_path": "auto_workflow/cases/164/response.txt",
+    "answer_path": "auto_workflow/cases/164/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "520aedb664aa65cbfe88a086ee753747b6573614a06e1d5e2824a4ae7888eea1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "165",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:00:47.050553+00:00",
+    "elapsed_seconds": 336.3581620508339,
+    "raw_response_path": "auto_workflow/cases/165/response.txt",
+    "answer_path": "auto_workflow/cases/165/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "64f727da8573a35a2075d915ab87f4a35374e819a9a0977d74fea32db46d77c6",
+    "error": "top-level object is missing keys ['idx', 'query']; top-level object has unexpected keys ['answer', 'parse_warning']; top-level idx must equal 165; top-level query must exactly reproduce the user query; plan must be a non-empty list; agent returned without a generated workflow source",
+    "attempt_count": 1,
+    "validation_errors": [
+      "top-level object is missing keys ['idx', 'query']",
+      "top-level object has unexpected keys ['answer', 'parse_warning']",
+      "top-level idx must equal 165",
+      "top-level query must exactly reproduce the user query",
+      "plan must be a non-empty list",
+      "agent returned without a generated workflow source"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "166",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:06:42.406897+00:00",
+    "elapsed_seconds": 405.5013721410651,
+    "raw_response_path": "auto_workflow/cases/166/response.txt",
+    "answer_path": "auto_workflow/cases/166/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "b1190eaf89c8a5696abcf80e3730e78ce1578afa4ea44d9f9fc6667dabb35d37",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "167",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:13:47.217585+00:00",
+    "elapsed_seconds": 344.48182267602533,
+    "raw_response_path": "auto_workflow/cases/167/response.txt",
+    "answer_path": "auto_workflow/cases/167/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "76085e941e6b84006fb43846d76f29ea821c1b73a1ecc7fada592d1927ba328b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "168",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:19:51.222537+00:00",
+    "elapsed_seconds": 238.51521655800752,
+    "raw_response_path": "auto_workflow/cases/168/response.txt",
+    "answer_path": "auto_workflow/cases/168/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "21e3c1cccd1fbdf7e46da8603bbc7feb0e0c5d212c2f6c083079d53afd1690c1",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "169",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T13:55:20.875401+00:00",
+    "elapsed_seconds": 554.7410809409339,
+    "raw_response_path": "auto_workflow/cases/169/response.txt",
+    "answer_path": "auto_workflow/cases/169/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4db99c3586a2f48ba3275f07328f81b5035656882a5bb50da8971390b22c0281",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "170",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:05:14.518165+00:00",
+    "elapsed_seconds": 411.696284762118,
+    "raw_response_path": "auto_workflow/cases/170/response.txt",
+    "answer_path": "auto_workflow/cases/170/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4bf5f865307ac63a2e266beff2b02645deb7b59c65b96faa612a42cd321c91cd",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "171",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:12:28.863067+00:00",
+    "elapsed_seconds": 395.0182871641591,
+    "raw_response_path": "auto_workflow/cases/171/response.txt",
+    "answer_path": "auto_workflow/cases/171/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "ac862d78dd80ccb529420f2b09b01623c7930bc8df32627a7d601a302bba9f63",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "172",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:19:23.319768+00:00",
+    "elapsed_seconds": 1409.0338231979404,
+    "raw_response_path": "auto_workflow/cases/172/response.txt",
+    "answer_path": "auto_workflow/cases/172/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "d4982bb6b646b0307311f358d9492347ca6da84cbd76fe7ae1fb30acd52d9e2e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 3,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "173",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:43:50.940061+00:00",
+    "elapsed_seconds": 288.36512590688653,
+    "raw_response_path": "auto_workflow/cases/173/response.txt",
+    "answer_path": "auto_workflow/cases/173/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "4ac55a3d09928530c5d6ce2b896dcfe9c6eab165a47f73be998d7eb812976c1e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "174",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:48:58.723283+00:00",
+    "elapsed_seconds": 279.07401529094204,
+    "raw_response_path": "auto_workflow/cases/174/response.txt",
+    "answer_path": "auto_workflow/cases/174/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "cde51735c7fc62a2c28d4a97519145322fb9a89823e9b765829d5f1ab488836a",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "175",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:53:57.239542+00:00",
+    "elapsed_seconds": 299.44126563495956,
+    "raw_response_path": "auto_workflow/cases/175/response.txt",
+    "answer_path": "auto_workflow/cases/175/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "5141b5f7ba36ab17a3d9fc7720fa78ef6f4418f0d0129a5074259d7111e88ecd",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "176",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T14:59:16.520683+00:00",
+    "elapsed_seconds": 264.81231994205154,
+    "raw_response_path": "auto_workflow/cases/176/response.txt",
+    "answer_path": "auto_workflow/cases/176/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7ee48811226bac80aee901c3f061e273bae7d36efdd78a16e9b61f972e3f502a",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "177",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:04:00.984594+00:00",
+    "elapsed_seconds": 853.1915220881347,
+    "raw_response_path": "auto_workflow/cases/177/response.txt",
+    "answer_path": "auto_workflow/cases/177/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "7bf9d6dffb79b25a805d770e47604c2c65824d633e3b889d2005c50a53ecbb7b",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 3,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "178",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:19:18.125068+00:00",
+    "elapsed_seconds": 425.54029166698456,
+    "raw_response_path": "auto_workflow/cases/178/response.txt",
+    "answer_path": "auto_workflow/cases/178/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "5f34771f5ab7d044d4a256a31001cc4d67f5a9699e3aea0de1695704f0b2e613",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "179",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:26:43.476767+00:00",
+    "elapsed_seconds": 676.5111388619989,
+    "raw_response_path": "auto_workflow/cases/179/response.txt",
+    "answer_path": "auto_workflow/cases/179/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "e75c96914e27946a58bddf3f4879e4109527724d3fe3819b46e11335f44d9a28",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 2,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  },
+  {
+    "arm": "auto-workflow",
+    "case_id": "180",
+    "status": "failed_output_contract",
+    "started_at": "2026-09-04T15:38:52.294605+00:00",
+    "elapsed_seconds": 384.3590341419913,
+    "raw_response_path": "auto_workflow/cases/180/response.txt",
+    "answer_path": "auto_workflow/cases/180/answer.json",
+    "workflow_path": null,
+    "stdout_sha256": "344c134ee8339c0eb909c46cf4cf0c6ac28888364f15e0440e60f4817995b74e",
+    "error": "plan must be a non-empty list",
+    "attempt_count": 1,
+    "validation_errors": [
+      "plan must be a non-empty list"
+    ]
+  }
+]

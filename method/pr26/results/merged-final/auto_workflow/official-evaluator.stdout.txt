@@ -1,0 +1,19 @@
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+GoogleDistanceMatrix loaded.
+Attractions loaded.
+Flights API loaded.
+Accommodations loaded.
+Restaurants loaded.
+GoogleDistanceMatrix loaded.
+Attractions loaded.
+Delivery Rate: 0.0%
+Commonsense Constraint Micro Pass Rate: 0.0%
+Commonsense Constraint Macro Pass Rate: 0.0%
+Hard Constraint Micro Pass Rate: 0.0%
+Hard Constraint Macro Pass Rate: 0.0%
+Final Pass Rate: 0.0%
+------------------
+{'Commonsense Constraint': {'easy': {3: {}, 5: {}, 7: {}}, 'medium': {3: {}, 5: {}, 7: {}}, 'hard': {3: {}, 5: {}, 7: {}}}, 'Hard Constraint': {'easy': {3: {}, 5: {}, 7: {}}, 'medium': {3: {}, 5: {}, 7: {}}, 'hard': {3: {}, 5: {}, 7: {}}}}
+------------------

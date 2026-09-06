@@ -425,3 +425,9 @@ def test_cli_does_not_publish_any_output_when_gateway_is_invalid(monkeypatch, tm
         )
 
     assert not any(path.exists() for path in outputs)
+
+
+def test_scale_official_scores_caps_selected_passes() -> None:
+    summary = evaluator.scale_official_scores({"Final Pass Rate": 1.0}, selected_count=1)
+
+    assert summary["final"] == {"passed": 1, "total": 1, "rate": 1.0}

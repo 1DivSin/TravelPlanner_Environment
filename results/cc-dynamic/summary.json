@@ -1,0 +1,23 @@
+{
+  "experiment": "cc_dynamic_workflow",
+  "run_id": "retry17-dynamic-20260831-233258",
+  "prompt_revision": "original_archive_compatible_prompt",
+  "selected_indices": [1, 11, 14, 17, 28, 33, 38, 41, 46, 48, 70, 72, 77, 81, 83, 100, 110, 113, 116, 118, 123, 124, 138, 144, 146, 151, 159, 161, 162, 163],
+  "delivery": "30/30 (100.00%)",
+  "commonsense_micro": "233/240 (97.08%)",
+  "commonsense_macro": "23/30 (76.67%)",
+  "hard_micro": "62/63 (98.41%)",
+  "hard_macro": "26/30 (86.67%)",
+  "final": "22/30 (73.33%)",
+  "recorded_successful_attempt_cost_usd": 52.065332,
+  "effective_compute_seconds": 9472.012292,
+  "model": "claude-opus-5",
+  "gateway": "https://penguinapi.org",
+  "verified_workflow_pilot": {
+    "workflow_calls": 1,
+    "generated_javascript_workflows": 1,
+    "workflow_subagents": 3,
+    "main_session_direct_travelplanner_mcp_calls": 0
+  },
+  "effective_final_retry_shards": 3
+}

@@ -11,3 +11,5 @@ This directory contains the complete locally preserved evidence for the 180-quer
 The 180-query run produced 180 delivered plans and scored 113/180 (62.78%). The 67 failures are evaluator failures on delivered plans; they are not missing-plan or timeout rows.
 
 The original raw Claude Code stream transcripts and tool-call traces are not included here because the source run directories are outside this checkout and were not available as readable files during packaging. The prediction records retain the final plans, query text, usage metadata, and source mapping. Add raw streams under `raw/` only after verifying they contain no credentials or private gateway tokens.
+
+- aw-dynamic-runs.zip: compressed raw Dynamic run directories, including Claude Code JSONL session streams, generated Workflow scripts, subagent journals, tool outputs, logs, and retry records. Credential-like configuration files were excluded from the archive.

@@ -1,0 +1,303 @@
+[
+  {
+    "path": "extracted-workflows/001.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/2bdf8e05-74b4-4294-9646-e92222bb61e8.jsonl",
+    "source_line": 23,
+    "tool_use_id": "toolu_bdrk_016PcQRm3xXiWGVWdeRKkcdF",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/002.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/b037378a-f0b1-43d0-b0d6-4333a1a2a8ec.jsonl",
+    "source_line": 85,
+    "tool_use_id": "toolu_bdrk_01KEQkQrLtU8hTkXLr6MJUMa",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/003.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/b037378a-f0b1-43d0-b0d6-4333a1a2a8ec.jsonl",
+    "source_line": 101,
+    "tool_use_id": "toolu_bdrk_0187fzmrLwNx2Z2rzHcArFD3",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/004.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/8ca49968-d2c6-4888-b305-aa480da156ec.jsonl",
+    "source_line": 78,
+    "tool_use_id": "toolu_bdrk_01FEBX3wsRAeRJ8MPspU6CTP",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/005.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/8ca49968-d2c6-4888-b305-aa480da156ec.jsonl",
+    "source_line": 90,
+    "tool_use_id": "toolu_bdrk_01LdvQbTauw2m4s9zQhhq3Dy",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/006.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/cbe2e14e-46ce-4809-b704-c1e6823bd649.jsonl",
+    "source_line": 23,
+    "tool_use_id": "toolu_bdrk_012dY74FYsB7NABKH7dNgF7z",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/007.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/a3c9ee24-d7c9-4454-a533-c8ffda21c13a.jsonl",
+    "source_line": 44,
+    "tool_use_id": "toolu_bdrk_01LLZqJ9Fmy7gqwJ26rPnSp5",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/008.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/a3c9ee24-d7c9-4454-a533-c8ffda21c13a.jsonl",
+    "source_line": 50,
+    "tool_use_id": "toolu_bdrk_01AgyE8Zqc1t1UpiLcD37rDr",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/009.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/a3c9ee24-d7c9-4454-a533-c8ffda21c13a.jsonl",
+    "source_line": 61,
+    "tool_use_id": "toolu_bdrk_013S1vrxghnrKBzPoSRtoiPp",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/010.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/faf6caf7-dc11-4aa9-99c6-cd42fe432bed.jsonl",
+    "source_line": 28,
+    "tool_use_id": "toolu_bdrk_01B7C5xgns18dFEnoKDkXuut",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/011.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/rerun15-20-dynamic-20260903-113153/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/faf6caf7-dc11-4aa9-99c6-cd42fe432bed.jsonl",
+    "source_line": 34,
+    "tool_use_id": "toolu_bdrk_01GZ5ngtdGuUVsiVixBDfjjr",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/012.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/010fdd09-7ddd-4b32-bb85-b41130753ea8.jsonl",
+    "source_line": 46,
+    "tool_use_id": "toolu_bdrk_0169L32vhPqCu3AXnKQP1hKu",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/013.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/010fdd09-7ddd-4b32-bb85-b41130753ea8.jsonl",
+    "source_line": 49,
+    "tool_use_id": "toolu_bdrk_018RTzg9QVRX2K7rCxdjeuG8",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/014.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/127aec70-a3ef-491f-b35e-5a155b66a157.jsonl",
+    "source_line": 68,
+    "tool_use_id": "toolu_bdrk_014jXvE37wtMTsvotAjPRiyy",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/015.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/127aec70-a3ef-491f-b35e-5a155b66a157.jsonl",
+    "source_line": 85,
+    "tool_use_id": "toolu_bdrk_016xo69TRHZbtdCWAxvG24kU",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/016.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/1822579a-0c96-46ad-ac82-e654df067f6b.jsonl",
+    "source_line": 39,
+    "tool_use_id": "toolu_bdrk_017D4ZSMtFcdY5VJ18MC5Y4N",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/017.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/6e017737-4422-4378-9dea-8f4e62dbc35a.jsonl",
+    "source_line": 36,
+    "tool_use_id": "toolu_bdrk_01EW2ptxjiAxMruLV3i6vs9N",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/018.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/6e017737-4422-4378-9dea-8f4e62dbc35a.jsonl",
+    "source_line": 59,
+    "tool_use_id": "toolu_bdrk_01KmQGzTQdKXKKmxQKMJPJiV",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/019.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/6e017737-4422-4378-9dea-8f4e62dbc35a.jsonl",
+    "source_line": 75,
+    "tool_use_id": "toolu_bdrk_01QTVcw8yp1Vd1e9DZt4LUr4",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/020.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/76e3a0b0-9499-4228-8651-804f910acf81.jsonl",
+    "source_line": 45,
+    "tool_use_id": "toolu_bdrk_01BTsSDXpyKBquz6aUDDPA8J",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/021.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/76e3a0b0-9499-4228-8651-804f910acf81.jsonl",
+    "source_line": 51,
+    "tool_use_id": "toolu_bdrk_0111Vq1rutwhsCT4mXutYKBx",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/022.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/76e3a0b0-9499-4228-8651-804f910acf81.jsonl",
+    "source_line": 85,
+    "tool_use_id": "toolu_bdrk_01Ah2iZE4sfDUpxx93Ue2yqn",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/023.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/b711d87a-4da9-46f4-8a4f-a1c755d2d941.jsonl",
+    "source_line": 40,
+    "tool_use_id": "toolu_bdrk_01U9U8Hc4wGxH74nUk3mwHhG",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/024.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-a/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/b711d87a-4da9-46f4-8a4f-a1c755d2d941.jsonl",
+    "source_line": 44,
+    "tool_use_id": "toolu_bdrk_01ACZZ5MLAEwsTHLPGPcYZqN",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/025.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/4bfadc32-7150-41d0-8e3d-005b72b739c6.jsonl",
+    "source_line": 54,
+    "tool_use_id": "toolu_bdrk_01VyoqwAT8Ct1CN4XJu9UJQ5",
+    "tool": "Write"
+  },
+  {
+    "path": "extracted-workflows/026.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/4bfadc32-7150-41d0-8e3d-005b72b739c6.jsonl",
+    "source_line": 57,
+    "tool_use_id": "toolu_bdrk_018EoXppy9q5q1FqhcgZL2i6",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/027.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/5ac3bccd-cbbf-4119-8d52-1351b7bd0898.jsonl",
+    "source_line": 44,
+    "tool_use_id": "toolu_bdrk_01CfWmFzainSaLSzsw4u3yXe",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/028.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/747f36d7-9ba9-4cca-8115-39249183b177.jsonl",
+    "source_line": 53,
+    "tool_use_id": "toolu_bdrk_01JjgEPJCDtVVV8wHeepu9rp",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/029.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/747f36d7-9ba9-4cca-8115-39249183b177.jsonl",
+    "source_line": 67,
+    "tool_use_id": "toolu_bdrk_012LbeKg62qQxf4hLFcJ6pMw",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/030.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/c0afe94a-8eab-4b57-8883-2ca270542585.jsonl",
+    "source_line": 55,
+    "tool_use_id": "toolu_bdrk_0176F2QRHZRRFFKadnbcny5f",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/031.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/c9a56849-7bda-42de-b358-bfb9323fb2c7.jsonl",
+    "source_line": 84,
+    "tool_use_id": "toolu_bdrk_01SKvj5Lmj2ampeFVBmWKjJL",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/032.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/ca4951e9-8a1a-456b-ac89-717f3166d8fc.jsonl",
+    "source_line": 26,
+    "tool_use_id": "toolu_bdrk_01FundGBgWdZvVAm8Bzwdges",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/033.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-b/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/ca4951e9-8a1a-456b-ac89-717f3166d8fc.jsonl",
+    "source_line": 33,
+    "tool_use_id": "toolu_bdrk_01BV4JCwyFeGNpWggYndAaSf",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/034.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/07e1e9b3-2a7c-4a2f-a419-5904e4dc0e5c.jsonl",
+    "source_line": 35,
+    "tool_use_id": "toolu_bdrk_019EKTwwCEUitKECbEbUVLU6",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/035.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/209a0587-ed52-455c-b174-ac2e6981b338.jsonl",
+    "source_line": 39,
+    "tool_use_id": "toolu_bdrk_01VJAYFRhXZwuPPzQgGgF3Xf",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/036.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/33896c7c-9595-43b6-b8da-370edde1db3f.jsonl",
+    "source_line": 33,
+    "tool_use_id": "toolu_bdrk_01BfyENjxMgddZv95CVB3cx6",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/037.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/33896c7c-9595-43b6-b8da-370edde1db3f.jsonl",
+    "source_line": 45,
+    "tool_use_id": "toolu_bdrk_01PHfv4qJkk5Ft3bqKwPtEmT",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/038.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/33896c7c-9595-43b6-b8da-370edde1db3f.jsonl",
+    "source_line": 76,
+    "tool_use_id": "toolu_bdrk_011k1zuEMy9NAfZQza6dezuc",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/039.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/af4d63d2-3e12-494d-a1d9-3b76700009a1.jsonl",
+    "source_line": 22,
+    "tool_use_id": "toolu_bdrk_01BFwm43kt8QfKar4h9kgiJe",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/040.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/af4d63d2-3e12-494d-a1d9-3b76700009a1.jsonl",
+    "source_line": 55,
+    "tool_use_id": "toolu_bdrk_015wkn4PXLXxtYmeq1wURZdd",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/041.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/af4d63d2-3e12-494d-a1d9-3b76700009a1.jsonl",
+    "source_line": 68,
+    "tool_use_id": "toolu_bdrk_014SAXjSG9YZfbATLjFWMgjt",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/042.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/c13044bf-cf88-4400-8f62-af09dcce888e.jsonl",
+    "source_line": 27,
+    "tool_use_id": "toolu_bdrk_01EuozByaweskPjFpzdVj6WZ",
+    "tool": "Workflow"
+  },
+  {
+    "path": "extracted-workflows/043.js",
+    "source_session": "an-z/work/travelplanner-cc-dynamic/runs/dynamic/retry17-dynamic-20260831-233258/shard-c/claude-config/projects/C--Users-lbq-Documents-Codex-2026-08-31-an-z-work-travelplanner-cc-dynamic/c13044bf-cf88-4400-8f62-af09dcce888e.jsonl",
+    "source_line": 40,
+    "tool_use_id": "toolu_bdrk_013LELAEyqAUwauqZ1Xz2Qae",
+    "tool": "Workflow"
+  }
+]

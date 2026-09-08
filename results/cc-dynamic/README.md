@@ -27,3 +27,8 @@ Dynamic Workflow 路由，而不是普通的直连 MCP 规划。
 
 `formal-30-scores.json` 是逐题评分结果，`formal-30-report.md` 是精简报告，
 `formal-30-attempts.jsonl` 是脱敏后的尝试记录。
+
+
+## 后续完整 180 题材料
+
+完整 Dynamic 180 题：113/180（62.78%），来源记录全部匹配；会话覆盖尚不完整。 [完整材料与覆盖说明](full-180/README.md)。上文为早期实验记录，不能与后续运行混用。

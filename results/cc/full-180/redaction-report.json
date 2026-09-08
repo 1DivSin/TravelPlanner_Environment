@@ -1,0 +1,6 @@
+{
+  "policy": "allowlisted experiment files only; exclude credentials, local settings, backups, shell snapshots, telemetry and unrelated workspaces; redact credential patterns and credential JSON keys; normalize local roots",
+  "content_redactions_both_packages": {
+    "credential_patterns": 0
+  }
+}

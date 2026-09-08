@@ -1,0 +1,650 @@
+{
+  "naming": {
+    "cc_run": "cc_pure_bare-180-20260904-235302-8fdb77c5",
+    "dynamic_run": "local outputs/progress-180.json"
+  },
+  "all_180": {
+    "n": 180,
+    "delivered": 169,
+    "final_cc": 132,
+    "final_dynamic": 113,
+    "cc_failures": {
+      "is_valid_transportation": 26,
+      "is_reasonable_visiting_city": 11,
+      "is_valid_accommodation": 5,
+      "is_not_absent": 3,
+      "valid_cost": 2,
+      "is_valid_information_in_current_city": 1,
+      "is_valid_information_in_sandbox": 2,
+      "valid_room_type": 2,
+      "valid_cuisine": 3
+    },
+    "dynamic_failures": {
+      "valid_cost": 3,
+      "is_valid_transportation": 42,
+      "is_valid_restaurants": 1,
+      "is_valid_information_in_current_city": 7,
+      "is_not_absent": 12,
+      "is_reasonable_visiting_city": 23,
+      "is_valid_information_in_sandbox": 14,
+      "is_valid_attractions": 1,
+      "valid_room_type": 2,
+      "is_valid_accommodation": 5,
+      "valid_transportation": 1
+    }
+  },
+  "both_delivered_169": {
+    "n": 169,
+    "delivered": 169,
+    "final_cc": 132,
+    "final_dynamic": 105,
+    "cc_failures": {
+      "is_valid_transportation": 26,
+      "is_reasonable_visiting_city": 11,
+      "is_valid_accommodation": 5,
+      "is_not_absent": 3,
+      "valid_cost": 2,
+      "is_valid_information_in_current_city": 1,
+      "is_valid_information_in_sandbox": 2,
+      "valid_room_type": 2,
+      "valid_cuisine": 3
+    },
+    "dynamic_failures": {
+      "valid_cost": 3,
+      "is_valid_transportation": 41,
+      "is_valid_restaurants": 1,
+      "is_valid_information_in_current_city": 7,
+      "is_not_absent": 10,
+      "is_reasonable_visiting_city": 22,
+      "is_valid_information_in_sandbox": 13,
+      "is_valid_attractions": 1,
+      "valid_room_type": 2,
+      "is_valid_accommodation": 4,
+      "valid_transportation": 1
+    }
+  },
+  "cc_missing": [
+    167,
+    170,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180
+  ],
+  "pairs": {
+    "both": 97,
+    "cc_only": 35,
+    "neither": 29,
+    "dynamic_only": 8
+  },
+  "mcnemar_exact_two_sided_p": 4.1934157934520044e-05,
+  "by_level": {
+    "easy": {
+      "n": 60,
+      "delivered": 60,
+      "final_cc": 42,
+      "final_dynamic": 32,
+      "cc_failures": {
+        "is_valid_transportation": 16,
+        "is_reasonable_visiting_city": 6,
+        "is_valid_accommodation": 2,
+        "is_not_absent": 1
+      },
+      "dynamic_failures": {
+        "valid_cost": 1,
+        "is_valid_transportation": 20,
+        "is_valid_restaurants": 1,
+        "is_valid_information_in_current_city": 3,
+        "is_not_absent": 3,
+        "is_reasonable_visiting_city": 11,
+        "is_valid_information_in_sandbox": 3,
+        "is_valid_attractions": 1
+      }
+    },
+    "medium": {
+      "n": 60,
+      "delivered": 60,
+      "final_cc": 49,
+      "final_dynamic": 34,
+      "cc_failures": {
+        "is_valid_accommodation": 3,
+        "is_valid_transportation": 9,
+        "valid_cost": 2,
+        "is_reasonable_visiting_city": 5,
+        "is_valid_information_in_current_city": 1,
+        "is_valid_information_in_sandbox": 1,
+        "is_not_absent": 1
+      },
+      "dynamic_failures": {
+        "valid_cost": 2,
+        "is_not_absent": 3,
+        "is_valid_information_in_sandbox": 8,
+        "is_reasonable_visiting_city": 10,
+        "is_valid_transportation": 18,
+        "valid_room_type": 1,
+        "is_valid_accommodation": 1,
+        "is_valid_information_in_current_city": 3
+      }
+    },
+    "hard": {
+      "n": 60,
+      "delivered": 49,
+      "final_cc": 41,
+      "final_dynamic": 47,
+      "cc_failures": {
+        "valid_room_type": 2,
+        "valid_cuisine": 3,
+        "is_not_absent": 1,
+        "is_valid_information_in_sandbox": 1,
+        "is_valid_transportation": 1
+      },
+      "dynamic_failures": {
+        "is_valid_information_in_sandbox": 3,
+        "is_not_absent": 6,
+        "is_valid_accommodation": 4,
+        "is_valid_transportation": 4,
+        "is_valid_information_in_current_city": 1,
+        "is_reasonable_visiting_city": 2,
+        "valid_transportation": 1,
+        "valid_room_type": 1
+      }
+    }
+  },
+  "by_days": {
+    "3": {
+      "n": 60,
+      "delivered": 60,
+      "final_cc": 55,
+      "final_dynamic": 54,
+      "cc_failures": {
+        "is_valid_accommodation": 1,
+        "valid_room_type": 1,
+        "valid_cuisine": 3
+      },
+      "dynamic_failures": {
+        "valid_cost": 3,
+        "is_not_absent": 2,
+        "is_valid_information_in_sandbox": 1
+      }
+    },
+    "5": {
+      "n": 60,
+      "delivered": 60,
+      "final_cc": 45,
+      "final_dynamic": 32,
+      "cc_failures": {
+        "is_valid_transportation": 12,
+        "is_reasonable_visiting_city": 7,
+        "is_valid_accommodation": 3,
+        "valid_cost": 2,
+        "is_not_absent": 1,
+        "is_valid_information_in_sandbox": 1
+      },
+      "dynamic_failures": {
+        "is_valid_transportation": 19,
+        "is_valid_restaurants": 1,
+        "is_valid_information_in_current_city": 5,
+        "is_not_absent": 6,
+        "is_reasonable_visiting_city": 7,
+        "is_valid_information_in_sandbox": 6,
+        "valid_room_type": 1,
+        "is_valid_accommodation": 3,
+        "valid_transportation": 1
+      }
+    },
+    "7": {
+      "n": 60,
+      "delivered": 49,
+      "final_cc": 32,
+      "final_dynamic": 27,
+      "cc_failures": {
+        "is_reasonable_visiting_city": 4,
+        "is_valid_accommodation": 1,
+        "is_valid_transportation": 14,
+        "is_not_absent": 2,
+        "is_valid_information_in_current_city": 1,
+        "is_valid_information_in_sandbox": 1,
+        "valid_room_type": 1
+      },
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": 16,
+        "is_valid_transportation": 23,
+        "is_valid_information_in_current_city": 2,
+        "is_valid_information_in_sandbox": 7,
+        "is_not_absent": 4,
+        "is_valid_attractions": 1,
+        "valid_room_type": 1,
+        "is_valid_accommodation": 2
+      }
+    }
+  },
+  "discordant": [
+    {
+      "idx": 18,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "valid_cost": null
+      },
+      "cc_days": 3,
+      "level": "easy"
+    },
+    {
+      "idx": 24,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 26,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 28,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 34,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_valid_information_in_current_city": "The lunch in day 5 is invalid city choice.",
+        "is_valid_information_in_sandbox": "The flight number in day 5 is invalid in the sandbox."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 35,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_not_absent": "No attaction in day 4 is not allowed."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 36,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 40,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "easy"
+    },
+    {
+      "idx": 42,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 48,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 50,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 52,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 54,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 57,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 58,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 60,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid."
+      },
+      "cc_days": 7,
+      "level": "easy"
+    },
+    {
+      "idx": 75,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "valid_cost": null
+      },
+      "cc_days": 3,
+      "level": "medium"
+    },
+    {
+      "idx": 79,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_not_absent": "No meal in day 2 is not allowed."
+      },
+      "cc_days": 3,
+      "level": "medium"
+    },
+    {
+      "idx": 81,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_information_in_sandbox": "The attraction P茅rez Art Museum Miami, Miami in day 4 is invalid in the sandbox."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 83,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 85,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 86,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "valid_room_type": "The room type should be shared room."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 87,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_accommodation": "The accommodation Peaceful, beautiful home away, Denver do not obey the minumum nights rule.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 90,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 91,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 5,
+      "level": "medium"
+    },
+    {
+      "idx": 101,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 102,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_not_absent": "No meal in day 3 is not allowed."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 103,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_information_in_sandbox": "The accommodation in day 3 is invalid in the sandbox."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 104,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 107,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_valid_information_in_sandbox": "The flight number in day 7 is invalid in the sandbox."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 110,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 114,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_valid_information_in_current_city": "The lunch in day 7 is invalid city choice.",
+        "is_valid_information_in_sandbox": "The flight number in day 7 is invalid in the sandbox."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 119,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "cc_days": 7,
+      "level": "medium"
+    },
+    {
+      "idx": 124,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_information_in_sandbox": "The attraction Market Square (Haunted Knoxville Ghost Tours), Knoxville in day 2 is invalid in the sandbox."
+      },
+      "cc_days": 3,
+      "level": "hard"
+    },
+    {
+      "idx": 130,
+      "cc_failures": {
+        "valid_cuisine": "The cuisine Mediterranean is not satisfied."
+      },
+      "dynamic_failures": {},
+      "cc_days": 3,
+      "level": "hard"
+    },
+    {
+      "idx": 138,
+      "cc_failures": {
+        "valid_cuisine": "The cuisine French is not satisfied."
+      },
+      "dynamic_failures": {},
+      "cc_days": 3,
+      "level": "hard"
+    },
+    {
+      "idx": 140,
+      "cc_failures": {
+        "valid_cuisine": "The cuisine French is not satisfied."
+      },
+      "dynamic_failures": {},
+      "cc_days": 3,
+      "level": "hard"
+    },
+    {
+      "idx": 145,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_accommodation": "The accommodation Brooklyn home, Grand Rapids do not obey the minumum nights rule."
+      },
+      "cc_days": 5,
+      "level": "hard"
+    },
+    {
+      "idx": 149,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting.",
+        "is_valid_information_in_current_city": "The transportation in day 5 is invalid city choice.",
+        "is_not_absent": "No meal in day 4 is not allowed."
+      },
+      "cc_days": 5,
+      "level": "hard"
+    },
+    {
+      "idx": 152,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting.",
+        "valid_transportation": "The transportation should not be no flight."
+      },
+      "cc_days": 5,
+      "level": "hard"
+    },
+    {
+      "idx": 154,
+      "cc_failures": {
+        "is_valid_information_in_sandbox": "The accommodation in day 2 is invalid in the sandbox."
+      },
+      "dynamic_failures": {},
+      "cc_days": 5,
+      "level": "hard"
+    },
+    {
+      "idx": 160,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_accommodation": "The accommodation Sunny and Homie BK Apartment, Scranton do not obey the minumum nights rule.",
+        "is_not_absent": "No attaction in day 4 is not allowed."
+      },
+      "cc_days": 5,
+      "level": "hard"
+    },
+    {
+      "idx": 169,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_accommodation": "The accommodation Charming manhattan 1 bedrooms in the city, Peoria do not obey the minumum nights rule."
+      },
+      "cc_days": 7,
+      "level": "hard"
+    }
+  ],
+  "cost_usd": {
+    "cc": 183.69316425,
+    "dynamic": 327.21575305
+  },
+  "prompt_controls": {
+    "cc_effort": "high",
+    "dynamic_effort": "ultracode",
+    "cc_allows": "mcp__travelplanner__*",
+    "cc_disallows": "Workflow",
+    "dynamic_allows": "Workflow,mcp__travelplanner__*",
+    "cc_prompt_has_explicit_verify": true,
+    "dynamic_prompt_has_explicit_verify": false
+  },
+  "evaluator_files_same_bytes": false,
+  "evaluator_same_core_functions": true
+}

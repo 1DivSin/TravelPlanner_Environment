@@ -1,0 +1,30 @@
+{
+  "indices": 180,
+  "prediction_records": 180,
+  "delivered_plans": 169,
+  "failed_final_indices": [
+    167,
+    170,
+    172,
+    173,
+    174,
+    175,
+    176,
+    178,
+    177,
+    179,
+    180
+  ],
+  "attempts": 212,
+  "attempt_errors": {
+    "none": 169,
+    "plan JSON extraction failed": 3,
+    "timeout after 1800s": 3,
+    "api_error": 37
+  },
+  "conversation_files_found": 0,
+  "conversation_indices_verified": 0,
+  "complete_conversations": false,
+  "workflow": "not applicable: direct MCP, Workflow disallowed",
+  "archive_files": 28
+}

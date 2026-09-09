@@ -1,0 +1,18 @@
+{
+  "source_runs": [
+    "/public/home/sychen/cxy/workflow/TravelPlanner/clean-main-1-50-20260905/run",
+    "/public/home/sychen/cxy/workflow/TravelPlanner/clean-main-51-180-20260906/run",
+    "/public/home/sychen/cxy/workflow/TravelPlanner/clean-main-51-180-20260906-rerun-quota-retry6/run",
+    "/public/home/sychen/cxy/workflow/TravelPlanner/clean-main-51-180-20260906-rerun-quota-retry8/run"
+  ],
+  "prediction_rows": 180,
+  "nonempty_plan_count": 175,
+  "empty_plan_case_ids": [
+    43,
+    56,
+    105,
+    152,
+    170
+  ],
+  "selection_policy": "all available answers from authorized main and quota rerun roots; missing rows as empty plans"
+}

@@ -1,0 +1,6 @@
+{
+  "manifest": {
+    "workflow": "3d4dcb20836d2075141a2eb0576fdc71798fcd1c0b35b6a8935cc758c80a7a9b"
+  },
+  "skills_xml": "<available_skills>\n  <skill name=\"workflow\"\n    description=\"Author, save, inspect, reuse, or run workflow declarations after explicit Workflow or multi-agent opt-in. Use for coordinated agents or roles, program or human steps, parallel branches, and staged pipelines. Use the legacy flow skill only for explicit compatibility work.\"\n  />\n</available_skills>"
+}

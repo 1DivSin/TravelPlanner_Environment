@@ -1,0 +1,72 @@
+[
+  {
+    "case_id": "31",
+    "status": "completed_process",
+    "started_at": "2026-09-05T14:31:12.454485+00:00",
+    "elapsed_seconds": 421.02100265491754,
+    "raw_response_path": "shards/shard-07/cases/31/response.txt",
+    "answer_path": "shards/shard-07/cases/31/answer.json",
+    "workflow_path": "shards/shard-07/cases/31/workflow-source.workflow",
+    "response_sha256": "a5d7e092f34e5e4801f0fbdc4041ce98616399fef830858554b4f7a90e10cba6",
+    "prompt_sha256": "8c1356387c8a17c90d1fe88988689abb6cde136003f4de4fb4054028f80bb430",
+    "attempt_count": 1,
+    "process_error": null,
+    "parse_warning": null
+  },
+  {
+    "case_id": "32",
+    "status": "completed_process",
+    "started_at": "2026-09-05T14:38:19.125165+00:00",
+    "elapsed_seconds": 521.8783204660285,
+    "raw_response_path": "shards/shard-07/cases/32/response.txt",
+    "answer_path": "shards/shard-07/cases/32/answer.json",
+    "workflow_path": "shards/shard-07/cases/32/workflow-source.workflow",
+    "response_sha256": "636a74cfbf8ce36223e7fbfa8911162c513d9b38d1d493757a9b52a697239752",
+    "prompt_sha256": "36d042d03b18074aabbb1862a752b3f6e064eace4b1a88547068bd31c48835da",
+    "attempt_count": 1,
+    "process_error": null,
+    "parse_warning": null
+  },
+  {
+    "case_id": "33",
+    "status": "completed_process",
+    "started_at": "2026-09-05T14:47:27.255677+00:00",
+    "elapsed_seconds": 867.1824281059671,
+    "raw_response_path": "shards/shard-07/cases/33/response.txt",
+    "answer_path": "shards/shard-07/cases/33/answer.json",
+    "workflow_path": "shards/shard-07/cases/33/workflow-source.workflow",
+    "response_sha256": "82dbd8f1a7d9022d61895ab63e5a6d09d1b7a01901133fbd6213b7930d3cc1f3",
+    "prompt_sha256": "1f4ab46cae8f8f37e07d0bd42465a7181c665f827b9c06a4d3906b0b81d6456f",
+    "attempt_count": 1,
+    "process_error": null,
+    "parse_warning": null
+  },
+  {
+    "case_id": "34",
+    "status": "completed_process",
+    "started_at": "2026-09-05T15:02:15.153511+00:00",
+    "elapsed_seconds": 392.02320111193694,
+    "raw_response_path": "shards/shard-07/cases/34/response.txt",
+    "answer_path": "shards/shard-07/cases/34/answer.json",
+    "workflow_path": "shards/shard-07/cases/34/workflow-source.workflow",
+    "response_sha256": "ade8548bd20a38a3eca85748a7facedbe8c732fa4df9eaf61843e32fdf0b5606",
+    "prompt_sha256": "062116e90fc2981456cc0fc8bb0b7cea49454765786c41cdc271eb72b76681c8",
+    "attempt_count": 1,
+    "process_error": null,
+    "parse_warning": null
+  },
+  {
+    "case_id": "35",
+    "status": "completed_process",
+    "started_at": "2026-09-05T15:09:20.798796+00:00",
+    "elapsed_seconds": 795.6973677740898,
+    "raw_response_path": "shards/shard-07/cases/35/response.txt",
+    "answer_path": "shards/shard-07/cases/35/answer.json",
+    "workflow_path": "shards/shard-07/cases/35/workflow-source.workflow",
+    "response_sha256": "6c8f6d50cc69327caaf70d3ab242d35460be3e754224d72062835268e8165694",
+    "prompt_sha256": "9a48f559523b7314385d8f5ab7707838c42b64a1115b47ea5fe0987a1d7cb54a",
+    "attempt_count": 1,
+    "process_error": null,
+    "parse_warning": null
+  }
+]

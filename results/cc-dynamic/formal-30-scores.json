@@ -1,0 +1,2139 @@
+{
+  "per_index": [
+    {
+      "idx": 1,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.07655585,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 11,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.13825055,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 14,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.34449525,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 17,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The dinner in day 1 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 1.3382377,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 28,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.1885098000000003,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 33,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.1747836,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 38,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.36809495,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 41,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 3.3789524499999994,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 46,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.7047541500000003,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 48,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 2.9142059000000007,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 70,
+      "level": "medium",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 0.7889410000000001,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 72,
+      "level": "medium",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 1.18814835,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 77,
+      "level": "medium",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 1.4084528,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 81,
+      "level": "medium",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The attraction P茅rez Art Museum Miami, Miami in day 4 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 2.4190396000000005,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 83,
+      "level": "medium",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 1.5265566500000003,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 100,
+      "level": "medium",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 2.979642349999999,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 110,
+      "level": "medium",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": false,
+      "cost_usd": 1.9289176000000001,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 113,
+      "level": "medium",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 2.7654337500000006,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 116,
+      "level": "medium",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": true,
+      "cost_usd": 1.4696802000000002,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 118,
+      "level": "medium",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 2,
+      "hard_tested": 2,
+      "final_pass": false,
+      "cost_usd": 1.1926696500000002,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 123,
+      "level": "hard",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 4.781431199999999,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 124,
+      "level": "hard",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The attraction Market Square (Haunted Knoxville Ghost Tours), Knoxville in day 2 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 0.68589845,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 138,
+      "level": "hard",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.27079875,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 144,
+      "level": "hard",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.3910421000000004,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 146,
+      "level": "hard",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.1130873999999997,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 151,
+      "level": "hard",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.4045928500000002,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 159,
+      "level": "hard",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.9457038500000001,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 161,
+      "level": "hard",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          true,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 1.04030965,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 162,
+      "level": "hard",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          false,
+          "The room type should be private room."
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": false,
+      "hard_passed": 3,
+      "hard_tested": 4,
+      "final_pass": false,
+      "cost_usd": 1.69629645,
+      "model": "claude-haiku-4-5",
+      "error": null
+    },
+    {
+      "idx": 163,
+      "level": "hard",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          true,
+          null
+        ],
+        "valid_transportation": [
+          true,
+          null
+        ],
+        "valid_room_type": [
+          true,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 4,
+      "hard_tested": 4,
+      "final_pass": true,
+      "cost_usd": 2.4418495,
+      "model": "claude-haiku-4-5",
+      "error": null
+    }
+  ],
+  "summary": {
+    "selected_count": 30,
+    "delivery": {
+      "passed": 30,
+      "total": 30,
+      "rate": 1.0
+    },
+    "commonsense": {
+      "micro": {
+        "passed": 233,
+        "total": 240,
+        "rate": 0.9708333333333333
+      },
+      "macro": {
+        "passed": 23,
+        "total": 30,
+        "rate": 0.7666666666666667
+      }
+    },
+    "hard": {
+      "micro": {
+        "passed": 62,
+        "total": 63,
+        "rate": 0.9841269841269841
+      },
+      "macro": {
+        "passed": 26,
+        "total": 30,
+        "rate": 0.8666666666666667
+      }
+    },
+    "final": {
+      "passed": 22,
+      "total": 30,
+      "rate": 0.7333333333333333
+    },
+    "cost_usd": 52.06533234999999
+  }
+}

@@ -1,0 +1,646 @@
+{
+  "dynamic180": {
+    "summary": {
+      "selected_count": 180,
+      "delivery": {
+        "passed": 180,
+        "total": 180,
+        "rate": 1.0
+      },
+      "commonsense": {
+        "micro": {
+          "passed": 1335,
+          "total": 1440,
+          "rate": 0.9270833333333334
+        },
+        "macro": {
+          "passed": 117,
+          "total": 180,
+          "rate": 0.65
+        }
+      },
+      "hard": {
+        "micro": {
+          "passed": 354,
+          "total": 360,
+          "rate": 0.9833333333333333
+        },
+        "macro": {
+          "passed": 149,
+          "total": 180,
+          "rate": 0.8277777777777777
+        }
+      },
+      "final": {
+        "passed": 113,
+        "total": 180,
+        "rate": 0.6277777777777778
+      },
+      "cost_usd": 327.2157530499999
+    },
+    "stats": {
+      "n": 180,
+      "delivered": 180,
+      "final": 113,
+      "commonsense": 117,
+      "hard": 149,
+      "failures": {
+        "valid_cost": 3,
+        "is_valid_transportation": 42,
+        "is_valid_restaurants": 1,
+        "is_valid_information_in_current_city": 7,
+        "is_not_absent": 12,
+        "is_reasonable_visiting_city": 23,
+        "is_valid_information_in_sandbox": 14,
+        "is_valid_attractions": 1,
+        "valid_room_type": 2,
+        "is_valid_accommodation": 5,
+        "valid_transportation": 1
+      },
+      "only_failure": {
+        "valid_cost": 3,
+        "is_valid_transportation": 16,
+        "is_reasonable_visiting_city": 7,
+        "is_valid_information_in_sandbox": 5,
+        "is_not_absent": 4,
+        "is_valid_accommodation": 2,
+        "valid_room_type": 1
+      },
+      "cost_usd": 327.2157530499999
+    },
+    "rescore_changed_indices": [],
+    "by_days": {
+      "3": {
+        "n": 60,
+        "delivered": 60,
+        "final": 54,
+        "commonsense": 57,
+        "hard": 54,
+        "failures": {
+          "valid_cost": 3,
+          "is_not_absent": 2,
+          "is_valid_information_in_sandbox": 1
+        },
+        "only_failure": {
+          "valid_cost": 3,
+          "is_not_absent": 2,
+          "is_valid_information_in_sandbox": 1
+        },
+        "cost_usd": 95.30273110000003
+      },
+      "5": {
+        "n": 60,
+        "delivered": 60,
+        "final": 32,
+        "commonsense": 32,
+        "hard": 46,
+        "failures": {
+          "is_valid_transportation": 19,
+          "is_valid_restaurants": 1,
+          "is_valid_information_in_current_city": 5,
+          "is_not_absent": 6,
+          "is_reasonable_visiting_city": 7,
+          "is_valid_information_in_sandbox": 6,
+          "valid_room_type": 1,
+          "is_valid_accommodation": 3,
+          "valid_transportation": 1
+        },
+        "only_failure": {
+          "is_valid_transportation": 8,
+          "is_reasonable_visiting_city": 2,
+          "is_valid_information_in_sandbox": 3,
+          "is_valid_accommodation": 1,
+          "is_not_absent": 1
+        },
+        "cost_usd": 106.0306113
+      },
+      "7": {
+        "n": 60,
+        "delivered": 60,
+        "final": 27,
+        "commonsense": 28,
+        "hard": 49,
+        "failures": {
+          "is_reasonable_visiting_city": 16,
+          "is_valid_transportation": 23,
+          "is_valid_information_in_current_city": 2,
+          "is_valid_information_in_sandbox": 7,
+          "is_not_absent": 4,
+          "is_valid_attractions": 1,
+          "valid_room_type": 1,
+          "is_valid_accommodation": 2
+        },
+        "only_failure": {
+          "is_reasonable_visiting_city": 5,
+          "is_valid_transportation": 8,
+          "is_valid_information_in_sandbox": 1,
+          "valid_room_type": 1,
+          "is_valid_accommodation": 1,
+          "is_not_absent": 1
+        },
+        "cost_usd": 125.88241065
+      }
+    },
+    "by_level": {
+      "easy": {
+        "n": 60,
+        "delivered": 60,
+        "final": 32,
+        "commonsense": 33,
+        "hard": 53,
+        "failures": {
+          "valid_cost": 1,
+          "is_valid_transportation": 20,
+          "is_valid_restaurants": 1,
+          "is_valid_information_in_current_city": 3,
+          "is_not_absent": 3,
+          "is_reasonable_visiting_city": 11,
+          "is_valid_information_in_sandbox": 3,
+          "is_valid_attractions": 1
+        },
+        "only_failure": {
+          "valid_cost": 1,
+          "is_valid_transportation": 11,
+          "is_reasonable_visiting_city": 6,
+          "is_valid_information_in_sandbox": 1
+        },
+        "cost_usd": 100.49788889999998
+      },
+      "medium": {
+        "n": 60,
+        "delivered": 60,
+        "final": 34,
+        "commonsense": 36,
+        "hard": 46,
+        "failures": {
+          "valid_cost": 2,
+          "is_not_absent": 3,
+          "is_valid_information_in_sandbox": 8,
+          "is_reasonable_visiting_city": 10,
+          "is_valid_transportation": 18,
+          "valid_room_type": 1,
+          "is_valid_accommodation": 1,
+          "is_valid_information_in_current_city": 3
+        },
+        "only_failure": {
+          "valid_cost": 2,
+          "is_not_absent": 1,
+          "is_valid_information_in_sandbox": 3,
+          "is_valid_transportation": 5,
+          "is_reasonable_visiting_city": 1
+        },
+        "cost_usd": 117.74958485
+      },
+      "hard": {
+        "n": 60,
+        "delivered": 60,
+        "final": 47,
+        "commonsense": 48,
+        "hard": 50,
+        "failures": {
+          "is_valid_information_in_sandbox": 3,
+          "is_not_absent": 6,
+          "is_valid_accommodation": 4,
+          "is_valid_transportation": 4,
+          "is_valid_information_in_current_city": 1,
+          "is_reasonable_visiting_city": 2,
+          "valid_transportation": 1,
+          "valid_room_type": 1
+        },
+        "only_failure": {
+          "is_valid_information_in_sandbox": 1,
+          "is_not_absent": 3,
+          "is_valid_accommodation": 2,
+          "valid_room_type": 1
+        },
+        "cost_usd": 108.96827930000002
+      }
+    }
+  },
+  "cc50": {
+    "summary": {
+      "selected_count": 50,
+      "delivery": {
+        "passed": 50,
+        "total": 50,
+        "rate": 1.0
+      },
+      "commonsense": {
+        "micro": {
+          "passed": 375,
+          "total": 400,
+          "rate": 0.9375
+        },
+        "macro": {
+          "passed": 33,
+          "total": 50,
+          "rate": 0.66
+        }
+      },
+      "hard": {
+        "micro": {
+          "passed": 42,
+          "total": 42,
+          "rate": 1.0
+        },
+        "macro": {
+          "passed": 42,
+          "total": 50,
+          "rate": 0.84
+        }
+      },
+      "final": {
+        "passed": 33,
+        "total": 50,
+        "rate": 0.66
+      },
+      "cost_usd": 54.2519238
+    },
+    "stats": {
+      "n": 50,
+      "delivered": 50,
+      "final": 33,
+      "commonsense": 33,
+      "hard": 42,
+      "failures": {
+        "is_valid_information_in_sandbox": 8,
+        "is_valid_transportation": 11,
+        "is_valid_information_in_current_city": 2,
+        "is_reasonable_visiting_city": 4
+      },
+      "only_failure": {
+        "is_valid_information_in_sandbox": 5,
+        "is_valid_transportation": 6,
+        "is_reasonable_visiting_city": 1
+      },
+      "cost_usd": 54.2519238
+    },
+    "rescore_changed_indices": [
+      4,
+      8,
+      27,
+      44,
+      45
+    ],
+    "by_days": {
+      "3": {
+        "n": 20,
+        "delivered": 20,
+        "final": 18,
+        "commonsense": 18,
+        "hard": 18,
+        "failures": {
+          "is_valid_information_in_sandbox": 2
+        },
+        "only_failure": {
+          "is_valid_information_in_sandbox": 2
+        },
+        "cost_usd": 8.832186899999998
+      },
+      "5": {
+        "n": 20,
+        "delivered": 20,
+        "final": 12,
+        "commonsense": 12,
+        "hard": 16,
+        "failures": {
+          "is_valid_transportation": 5,
+          "is_valid_information_in_current_city": 1,
+          "is_valid_information_in_sandbox": 4,
+          "is_reasonable_visiting_city": 3
+        },
+        "only_failure": {
+          "is_valid_transportation": 2,
+          "is_reasonable_visiting_city": 1,
+          "is_valid_information_in_sandbox": 2
+        },
+        "cost_usd": 27.666695500000003
+      },
+      "7": {
+        "n": 10,
+        "delivered": 10,
+        "final": 3,
+        "commonsense": 3,
+        "hard": 8,
+        "failures": {
+          "is_reasonable_visiting_city": 1,
+          "is_valid_transportation": 6,
+          "is_valid_information_in_current_city": 1,
+          "is_valid_information_in_sandbox": 2
+        },
+        "only_failure": {
+          "is_valid_transportation": 4,
+          "is_valid_information_in_sandbox": 1
+        },
+        "cost_usd": 17.7530414
+      }
+    },
+    "by_level": {
+      "easy": {
+        "n": 50,
+        "delivered": 50,
+        "final": 33,
+        "commonsense": 33,
+        "hard": 42,
+        "failures": {
+          "is_valid_information_in_sandbox": 8,
+          "is_valid_transportation": 11,
+          "is_valid_information_in_current_city": 2,
+          "is_reasonable_visiting_city": 4
+        },
+        "only_failure": {
+          "is_valid_information_in_sandbox": 5,
+          "is_valid_transportation": 6,
+          "is_reasonable_visiting_city": 1
+        },
+        "cost_usd": 54.2519238
+      },
+      "medium": {
+        "n": 0,
+        "delivered": 0,
+        "final": 0,
+        "commonsense": 0,
+        "hard": 0,
+        "failures": {},
+        "only_failure": {},
+        "cost_usd": 0
+      },
+      "hard": {
+        "n": 0,
+        "delivered": 0,
+        "final": 0,
+        "commonsense": 0,
+        "hard": 0,
+        "failures": {},
+        "only_failure": {},
+        "cost_usd": 0
+      }
+    },
+    "model_usage": {
+      "claude-haiku-4-5": {
+        "inputTokens": 25036,
+        "outputTokens": 1089,
+        "cacheReadInputTokens": 186168,
+        "cacheCreationInputTokens": 37213,
+        "costUSD": 0.09561405
+      },
+      "claude-opus-5": {
+        "inputTokens": 2697323,
+        "outputTokens": 202464,
+        "cacheReadInputTokens": 20345577,
+        "cacheCreationInputTokens": 4069649,
+        "costUSD": 54.15630974999999
+      }
+    }
+  },
+  "dynamic50": {
+    "n": 50,
+    "delivered": 50,
+    "final": 31,
+    "commonsense": 32,
+    "hard": 44,
+    "failures": {
+      "valid_cost": 1,
+      "is_valid_transportation": 14,
+      "is_valid_restaurants": 1,
+      "is_valid_information_in_current_city": 3,
+      "is_not_absent": 2,
+      "is_reasonable_visiting_city": 5,
+      "is_valid_information_in_sandbox": 3
+    },
+    "only_failure": {
+      "valid_cost": 1,
+      "is_valid_transportation": 8,
+      "is_reasonable_visiting_city": 3,
+      "is_valid_information_in_sandbox": 1
+    },
+    "cost_usd": 81.72301965,
+    "model_usage": {
+      "claude-haiku-4-5": {
+        "inputTokens": 22999,
+        "outputTokens": 929,
+        "cacheReadInputTokens": 180734,
+        "cacheCreationInputTokens": 28498,
+        "costUSD": 0.08133989999999997
+      },
+      "claude-opus-5": {
+        "inputTokens": 3106991,
+        "outputTokens": 503917,
+        "cacheReadInputTokens": 29169390,
+        "cacheCreationInputTokens": 4618867,
+        "costUSD": 71.58549375000001
+      },
+      "claude-opus-5[1m]": {
+        "inputTokens": 485098,
+        "outputTokens": 50833,
+        "cacheReadInputTokens": 4246642,
+        "cacheCreationInputTokens": 677848,
+        "costUSD": 10.056186
+      }
+    }
+  },
+  "paired": {
+    "both_pass": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      23,
+      29,
+      30,
+      33,
+      37,
+      39,
+      41,
+      47
+    ],
+    "cc_only": [
+      18,
+      21,
+      24,
+      26,
+      36,
+      38,
+      40,
+      50
+    ],
+    "dynamic_only": [
+      4,
+      8,
+      28,
+      43,
+      45,
+      48
+    ],
+    "both_fail": [
+      22,
+      25,
+      27,
+      31,
+      32,
+      34,
+      35,
+      42,
+      44,
+      46,
+      49
+    ]
+  },
+  "discordant_cases": [
+    {
+      "idx": 4,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_information_in_sandbox": "The attraction Waik墨k墨 Beach, Honolulu in day 1 is invalid in the sandbox."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-174958\\queries\\idx-4\\attempt.jsonl"
+    },
+    {
+      "idx": 8,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_information_in_sandbox": "The attraction Castillo San Crist贸bal, San Juan in day 2 is invalid in the sandbox."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-174958\\queries\\idx-8\\attempt.jsonl"
+    },
+    {
+      "idx": 18,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "valid_cost": null
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\an-z\\work\\travelplanner-cc-dynamic\\runs\\dynamic\\rerun15-20-dynamic-20260903-113153\\rerun-15-20-attempts.jsonl"
+    },
+    {
+      "idx": 21,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-174958\\queries\\idx-21\\attempt.jsonl"
+    },
+    {
+      "idx": 24,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-174958\\queries\\idx-24\\attempt.jsonl"
+    },
+    {
+      "idx": 26,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\clean-first90-missing5-20260903-164128\\results\\rerun-prior15-19-attempts.jsonl"
+    },
+    {
+      "idx": 28,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\an-z\\work\\travelplanner-cc-dynamic\\runs\\dynamic\\retry17-dynamic-20260831-233258\\formal-30-attempts.jsonl"
+    },
+    {
+      "idx": 36,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-233303\\queries\\idx-36\\attempt.jsonl"
+    },
+    {
+      "idx": 38,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\an-z\\work\\travelplanner-cc-dynamic\\runs\\dynamic\\retry17-dynamic-20260831-233258\\formal-30-attempts.jsonl"
+    },
+    {
+      "idx": 40,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-233303\\queries\\idx-40\\attempt.jsonl"
+    },
+    {
+      "idx": 43,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-233303\\queries\\idx-43\\attempt.jsonl"
+    },
+    {
+      "idx": 45,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_information_in_sandbox": "The accommodation in day 5 is invalid in the sandbox."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-233303\\queries\\idx-45\\attempt.jsonl"
+    },
+    {
+      "idx": 48,
+      "cc_pass": false,
+      "dynamic_pass": true,
+      "cc_failures": {
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_failures": {},
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\an-z\\work\\travelplanner-cc-dynamic\\runs\\dynamic\\retry17-dynamic-20260831-233258\\formal-30-attempts.jsonl"
+    },
+    {
+      "idx": 50,
+      "cc_pass": true,
+      "dynamic_pass": false,
+      "cc_failures": {},
+      "dynamic_failures": {
+        "is_reasonable_visiting_city": "The city sequence is invalid.",
+        "is_valid_transportation": "The transportation is conflicting."
+      },
+      "dynamic_source": "C:\\Users\\lbq\\Documents\\Codex\\2026-08-31\\codex-threads-01a05618-3344-77f0-870a\\first90-remaining-clean-20260903-233303\\queries\\idx-50\\attempt.jsonl"
+    }
+  ],
+  "mcnemar_exact_two_sided_p": 0.79052734375
+}

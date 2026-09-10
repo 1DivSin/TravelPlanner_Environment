@@ -1,0 +1,40 @@
+{
+  "selected_count": 180,
+  "delivery": {
+    "passed": 169,
+    "total": 180,
+    "rate": 0.9388888888888889
+  },
+  "commonsense": {
+    "micro": {
+      "passed": 1304,
+      "total": 1352,
+      "rate": 0.9644970414201184
+    },
+    "macro": {
+      "passed": 137,
+      "total": 180,
+      "rate": 0.7611111111111111
+    }
+  },
+  "hard": {
+    "micro": {
+      "passed": 356,
+      "total": 363,
+      "rate": 0.9807162534435262
+    },
+    "macro": {
+      "passed": 157,
+      "total": 180,
+      "rate": 0.8722222222222222
+    }
+  },
+  "final": {
+    "passed": 132,
+    "total": 180,
+    "rate": 0.7333333333333333
+  },
+  "cost_usd": 183.69316425,
+  "input_tokens": 9601993,
+  "output_tokens": 899819
+}

@@ -1,0 +1,3036 @@
+{
+  "run_id": "cc-pure-bare-180-20260904-235302-8fdb77c5",
+  "selection": "first delivered plan per index, otherwise last failed attempt; matches saved score delivery",
+  "files": [
+    {
+      "path": "attempts.jsonl",
+      "bytes": 643560,
+      "source_sha256": "d49e177247701e39e7474fecbced55f0170f50c96c93b5c14bbd0e9585b9c73f",
+      "sha256": "01f97b4c9858a224ec5089bae8412b993482130cbffd0783e4544bf8f73caa6b"
+    },
+    {
+      "path": "scores-100.json",
+      "bytes": 151604,
+      "source_sha256": "78199b16e07809f66706385f6ff99573e5a8ca89346720ee64d214d353d99e03",
+      "sha256": "0668e9350512a854af5e340d53e2eb3bbd02f627213252ec5ae0205e4475e094"
+    },
+    {
+      "path": "scores-150.json",
+      "bytes": 226303,
+      "source_sha256": "f1666dd4c8c93485b7df24c89f92f3d752394cb169f7027b73006a1fd8aaf3cf",
+      "sha256": "23c411b9b161ef27cad78919c5927126a76fe4c9b67eb10f9013f0a47ccf5457"
+    },
+    {
+      "path": "scores-180.json",
+      "bytes": 259629,
+      "source_sha256": "df3f3391cf67d58280f7ea1f098b9baa36d14fe17fbed6bf7977125f5cf3a0de",
+      "sha256": "30bed3a41fe536b40d957660bce0c3fab8d1afabce9df304f189cead284576fa"
+    },
+    {
+      "path": "scores-50.json",
+      "bytes": 76270,
+      "source_sha256": "7270a0300ee047f8d886984c24e94bea1f30152ce8d0279486403f67bf8cf276",
+      "sha256": "1b9950cf3cfed838ea458a05dbbe1e4016ed7e9f6bdacfefb941ff0ae501525a"
+    },
+    {
+      "path": "source/TravelPlanner/postprocess/example_evaluation.jsonl",
+      "bytes": 336834,
+      "source_sha256": "ec0e188b69bd5600a9ee8143253ae36fa486fadbfd2a087f1f432efcf24f82c5",
+      "sha256": "eb8dba258f9ebe1c67616da064dc2ae29e9012b950749ee2ee0a3e4f1882bd4b"
+    },
+    {
+      "path": "source/TravelPlanner/tools/__init__.py",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/TravelPlanner/tools/accommodations/__init__.py",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/TravelPlanner/tools/accommodations/apis.py",
+      "bytes": 1114,
+      "source_sha256": "9d8132ef874a27dfbacc3ba24213731b9c6ee4f904e6a66718ddb10e9eebf4a1",
+      "sha256": "9d8132ef874a27dfbacc3ba24213731b9c6ee4f904e6a66718ddb10e9eebf4a1"
+    },
+    {
+      "path": "source/TravelPlanner/tools/attractions/apis.py",
+      "bytes": 1238,
+      "source_sha256": "577cd7a8bf4fd6a924bb604477417aa35fe6f03e60563509f334ec359e15768d",
+      "sha256": "577cd7a8bf4fd6a924bb604477417aa35fe6f03e60563509f334ec359e15768d"
+    },
+    {
+      "path": "source/TravelPlanner/tools/cities/apis.py",
+      "bytes": 755,
+      "source_sha256": "c870de78cdffa421d06a2ddecadb283874379481ef44de08d28700232ac3c522",
+      "sha256": "c870de78cdffa421d06a2ddecadb283874379481ef44de08d28700232ac3c522"
+    },
+    {
+      "path": "source/TravelPlanner/tools/flights/__init__.py",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/TravelPlanner/tools/flights/apis.py",
+      "bytes": 3302,
+      "source_sha256": "131a9d7509fda7a1ce1df3856adeda0f78ad774a62d889e0ce7420ac5e4d37be",
+      "sha256": "131a9d7509fda7a1ce1df3856adeda0f78ad774a62d889e0ce7420ac5e4d37be"
+    },
+    {
+      "path": "source/TravelPlanner/tools/googleDistanceMatrix/apis.py",
+      "bytes": 6252,
+      "source_sha256": "d8ddc6162bd37b030242fa4b125655b4a3324dd522118c3377d7661bb77a424c",
+      "sha256": "d8ddc6162bd37b030242fa4b125655b4a3324dd522118c3377d7661bb77a424c"
+    },
+    {
+      "path": "source/TravelPlanner/tools/notebook/apis.py",
+      "bytes": 1460,
+      "source_sha256": "0bfc12104d416962b24b9355cae0f09c51911963db65010f91e97df8cee84bad",
+      "sha256": "0bfc12104d416962b24b9355cae0f09c51911963db65010f91e97df8cee84bad"
+    },
+    {
+      "path": "source/TravelPlanner/tools/notebook/test.py",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/TravelPlanner/tools/planner/apis.py",
+      "bytes": 16753,
+      "source_sha256": "99a93b94a6a18c57ede733c40aa023e45477e0a1c588b2b162cf9c4dd3b23b87",
+      "sha256": "99a93b94a6a18c57ede733c40aa023e45477e0a1c588b2b162cf9c4dd3b23b87"
+    },
+    {
+      "path": "source/TravelPlanner/tools/planner/env.py",
+      "bytes": 11095,
+      "source_sha256": "1d7be3c511bfea123993ae85df5d9ead10aafaabf072afb5daf701e2312c9140",
+      "sha256": "1d7be3c511bfea123993ae85df5d9ead10aafaabf072afb5daf701e2312c9140"
+    },
+    {
+      "path": "source/TravelPlanner/tools/planner/sole_planning.py",
+      "bytes": 5059,
+      "source_sha256": "c43542532b27f2042d1967e26336e9eaeadbb608af75cdd5bf86e54882b859f7",
+      "sha256": "c43542532b27f2042d1967e26336e9eaeadbb608af75cdd5bf86e54882b859f7"
+    },
+    {
+      "path": "source/TravelPlanner/tools/planner/test.py",
+      "bytes": 19,
+      "source_sha256": "c17b7a7de042220c5ab4847500c1342ce7221c5f14ba8640b803232b8dab2593",
+      "sha256": "c17b7a7de042220c5ab4847500c1342ce7221c5f14ba8640b803232b8dab2593"
+    },
+    {
+      "path": "source/TravelPlanner/tools/restaurants/__init__.py",
+      "bytes": 0,
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "source/TravelPlanner/tools/restaurants/apis.py",
+      "bytes": 2106,
+      "source_sha256": "3bec84da57f5543ab4d00543fda8d4f460b5dc4e7e15e8eff1d00de74c56429d",
+      "sha256": "3bec84da57f5543ab4d00543fda8d4f460b5dc4e7e15e8eff1d00de74c56429d"
+    },
+    {
+      "path": "source/TravelPlanner/utils/budget_estimation.py",
+      "bytes": 8665,
+      "source_sha256": "cc23e11922830543a251f0842aa8046de782eb5c54c3d64fd230ffc756e67a2d",
+      "sha256": "cc23e11922830543a251f0842aa8046de782eb5c54c3d64fd230ffc756e67a2d"
+    },
+    {
+      "path": "source/TravelPlanner/utils/func.py",
+      "bytes": 8741,
+      "source_sha256": "e23774004401816e3ecc539382e48841eee3e12335e2056070b1d0b9a039e536",
+      "sha256": "e23774004401816e3ecc539382e48841eee3e12335e2056070b1d0b9a039e536"
+    },
+    {
+      "path": "source/TravelPlanner/utils/query_element_selection.py",
+      "bytes": 10653,
+      "source_sha256": "ec25b3b5cc3a8e0b5ec6a13675eeed669b0c9df44390248285ac5cb818077023",
+      "sha256": "ec25b3b5cc3a8e0b5ec6a13675eeed669b0c9df44390248285ac5cb818077023"
+    },
+    {
+      "path": "source/experiment/mcp_server.py",
+      "bytes": 6159,
+      "source_sha256": "5801194d9e494faf2131bdf128b8384f1f34b4c85351456289974707c93c4028",
+      "sha256": "5801194d9e494faf2131bdf128b8384f1f34b4c85351456289974707c93c4028"
+    },
+    {
+      "path": "source/experiment/runner.py",
+      "bytes": 26511,
+      "source_sha256": "7c3fb97f6fdff6f20cf327b8fa12e5ccac50f55854afccaa2b91598bf563d21e",
+      "sha256": "7c3fb97f6fdff6f20cf327b8fa12e5ccac50f55854afccaa2b91598bf563d21e"
+    },
+    {
+      "path": "timing.json",
+      "bytes": 88296,
+      "source_sha256": "2071a9b87e9ac72208e989445cfe223faa40cf964c6053450ebbdb9f8596ff28",
+      "sha256": "45ab78a3d50afaaff1afb7e7bb865aa33321c4d30c378a0d1517ba903e1e5beb"
+    }
+  ],
+  "per_index": [
+    {
+      "idx": 1,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 1,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 2,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 3,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 3,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 4,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 5,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 5,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 7,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "plan JSON extraction failed",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 6,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 6,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 7,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 8,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 8,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 9,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 9,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 11,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 10,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 10,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 11,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 12,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 12,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 13,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 13,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 14,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 14,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 15,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 15,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 16,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 16,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 18,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 17,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 17,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 18,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 20,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 19,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 19,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 20,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 21,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 21,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 22,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 22,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 24,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 23,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 23,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 24,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 25,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 25,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 27,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 26,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 26,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 27,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 28,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 28,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 29,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 29,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 31,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 30,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 30,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 31,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 33,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 32,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 35,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 33,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 32,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 34,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 34,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 35,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 38,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 36,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 36,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 37,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 37,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 38,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 39,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 39,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 40,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 40,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 41,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 41,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 45,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 42,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 43,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 43,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 42,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 44,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 50,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 45,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 44,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 46,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 47,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 47,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 46,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 48,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 51,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 49,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 48,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 50,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 49,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 51,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 55,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 52,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 52,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 53,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 53,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 54,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 56,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "plan JSON extraction failed",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 55,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 61,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "timeout after 1800s",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 56,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 57,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 57,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 60,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 58,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 59,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 59,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 62,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 60,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 79,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "plan JSON extraction failed",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 61,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 65,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 62,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 63,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 63,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 64,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 64,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 66,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 65,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 67,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 66,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 70,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 67,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 69,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 68,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 71,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 69,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 72,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 70,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 74,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 71,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 73,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 72,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 75,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 73,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 76,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 74,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 77,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 75,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 81,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 76,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 78,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 77,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 80,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 78,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 84,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 79,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 82,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 80,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 83,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 81,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 85,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 82,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 86,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 83,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 87,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 84,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 99,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "timeout after 1800s",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 85,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 88,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 86,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 89,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 87,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 90,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 88,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 91,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 89,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 92,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 90,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 94,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 91,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 95,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 92,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 96,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 93,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 97,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 94,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 98,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 95,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 100,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 96,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 105,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 97,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 101,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 98,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 103,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 99,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 102,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 100,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 104,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 101,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 106,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 102,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 108,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 103,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 109,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 104,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 107,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 105,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 111,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 106,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 110,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 107,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 112,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 108,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 113,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 109,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 117,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 110,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 115,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 111,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 114,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 112,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 116,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 113,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 118,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 114,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 120,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 115,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 119,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 116,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 122,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 117,
+      "selected_attempt": 2,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 144,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "timeout after 1800s",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 118,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 121,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 119,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 123,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 120,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 127,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 121,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 124,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 122,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 125,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 123,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 128,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 124,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 129,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 125,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 130,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 126,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 131,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 127,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 132,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 128,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 134,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 129,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 133,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 130,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 136,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 131,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 135,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 132,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 137,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 133,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 138,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 134,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 140,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 135,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 139,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 136,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 141,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 137,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 142,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 138,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 145,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 139,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 143,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 140,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 146,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 141,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 148,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 142,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 147,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 143,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 149,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 144,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 150,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 145,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 151,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 146,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 152,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 147,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 153,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 148,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 158,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 149,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 155,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 150,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 154,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 151,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 156,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 152,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 157,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 153,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 160,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 154,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 159,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 155,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 161,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 156,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 163,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 157,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 162,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 158,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 164,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 159,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 165,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 160,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 166,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 161,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 167,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 162,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 169,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 163,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 168,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 164,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 172,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 165,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 170,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 166,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 171,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 167,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 184,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 168,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 180,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 169,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 179,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 170,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 188,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 171,
+      "selected_attempt": 1,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 181,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": null,
+          "delivered": true
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 172,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 190,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 173,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 192,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 174,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 197,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 175,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 199,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 176,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 201,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 177,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 208,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 178,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 207,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 179,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 209,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    },
+    {
+      "idx": 180,
+      "selected_attempt": 3,
+      "source": "raw-cc-runs.zip!attempts.jsonl",
+      "source_line": 212,
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 2,
+          "error": "api_error",
+          "delivered": false
+        },
+        {
+          "attempt": 3,
+          "error": "api_error",
+          "delivered": false
+        }
+      ],
+      "conversation_files": [],
+      "conversation_status": "not_preserved_in_run_directory"
+    }
+  ]
+}

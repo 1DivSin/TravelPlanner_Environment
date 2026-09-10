@@ -1,0 +1,17 @@
+﻿{
+    "run_id":  "cc-pure-formal-20260904-1118",
+    "started_at":  "2026-09-04T03:24:14.179+00:00",
+    "ended_at":  "2026-09-04T06:27:09.218+00:00",
+    "status":  "completed",
+    "queries_total":  180,
+    "successful_queries":  53,
+    "failed_queries":  127,
+    "attempt_records":  440,
+    "concurrency":  3,
+    "checkpoint_evaluated":  50,
+    "checkpoint_not_reached":  [
+                                   100,
+                                   150,
+                                   180
+                               ]
+}

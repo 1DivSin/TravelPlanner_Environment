@@ -1,0 +1,17 @@
+{
+  "analysis-50-historical.md": "59fbd7ac0b1f4b2bb87ce4a68f0ce2c2cf345224ae825ae1caa3b58b452cfc78",
+  "analysis.md": "0b78aab5987884167406e6cbd753e4ddd825fa42cff18d148b310a68f1916bd9",
+  "attempts-180.jsonl": "01f97b4c9858a224ec5089bae8412b993482130cbffd0783e4544bf8f73caa6b",
+  "cc-full-rescored.json": "656c8e22dc36587a5495ef94089b53d55b44c165b18037410a09a6d63bc65e09",
+  "cc50-original-rescored.json": "93ec5ab09ccfb192befc541d612c54bdacd2fbbdf2221746f0f5b69eae7a2e95",
+  "comparison.json": "59d8caed827cffac90ecae879bf2fd3750a9f29cbdd6e85919573265f90bdd4c",
+  "coverage.json": "4b64a139eaf0f59bc0d21e5bc8037550ff15f89ba9443b2e4b408d4c384ddf0d",
+  "full180-comparison.json": "0ee14d0c8a92aa28e0340d605b026dbc01f3fbce9976fdc244997dda33427b84",
+  "predictions-180.jsonl": "1ff143fefb4bea99a2e67321463adc1d50546c29c386c857a107083575abbdec",
+  "raw-cc-runs.zip": "d550a1e6474931361097a1003a615ccc655a9f26e3af7e5d4843f5261ed84414",
+  "README.md": "b9fb199bcc9843e31dcde4c29510165440d5d98fb82864ebbd81f6109a5a2c2e",
+  "redaction-report.json": "384728ce828cb241b7eeec08aa9117c826cd89b2fd7dfa137a889188782cee6a",
+  "source-manifest.json": "8b8da03494f2a79af762cfa912df848a28f1c9709703e1bfe5eadde5e9dd16d3",
+  "summary-180.json": "defcf15edfb33e2f1b69ee4b3f410909109208bf46ac5fb1e8f86526f005279f",
+  "verify_evidence.py": "d2775eed7064d24ac7a1df29c4a41464739befce9bd0e3b10b51d1a00c8b464b"
+}

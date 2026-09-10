@@ -1,0 +1,3539 @@
+{
+  "per_index": [
+    {
+      "idx": 1,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.6538143,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 2,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.48544535,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 3,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.5114341499999999,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 4,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.4094835,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 5,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.505718,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 6,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.50955085,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 7,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.26162430000000003,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 8,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.275447,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 9,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.5933283,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 10,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.42351635,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 11,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.41922625,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 12,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.3376315,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 13,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.4116436,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 14,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.31851715,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 15,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.411032,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 16,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.5108615,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 17,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.33825655,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 18,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.6019468,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 19,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.40602325,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 20,
+      "level": "easy",
+      "days": 3,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.4476862,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 21,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.10051415,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 22,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          false,
+          "The dinner in day 5 is invalid city choice."
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The flight number in day 5 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 5,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 2.1322518,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 23,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.9239394000000001,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 24,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.611064,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 25,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          false,
+          "The city sequence is invalid."
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 6,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.2105533000000004,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 26,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.8866694,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 27,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          false,
+          "The city sequence is invalid."
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 6,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.3273914000000002,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 28,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 0.65668935,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 29,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.6126607000000002,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 30,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 2.4602328499999997,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 31,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          false,
+          "The city sequence is invalid."
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.5853442500000001,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 32,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The flight number in day 5 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 1.5330467500000002,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 33,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.6044892000000001,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 34,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.15816685,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 35,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The accommodation in day 1 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 2.95786795,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 36,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 2.03535335,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 37,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.06606455,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 38,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.66084565,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 39,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.1115374999999998,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 40,
+      "level": "easy",
+      "days": 5,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.0320131000000001,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 41,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 2.8201307500000006,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 42,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          false,
+          "The city sequence is invalid."
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 6,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 2.478156349999999,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 43,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 0.9351965,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 44,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          false,
+          "The lunch in day 7 is invalid city choice."
+        ],
+        "is_valid_information_in_sandbox": [
+          false,
+          "The flight number in day 7 is invalid in the sandbox."
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 5,
+      "commonsense_tested": 8,
+      "hard_box": null,
+      "hard_pass": false,
+      "hard_passed": 0,
+      "hard_tested": 0,
+      "final_pass": false,
+      "cost_usd": 1.8949425999999998,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 45,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 0.82749335,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 46,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 1.5303763,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 47,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.8460552500000003,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 48,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 2.6017117000000005,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 49,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          false,
+          "The transportation is conflicting."
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": false,
+      "commonsense_passed": 7,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": false,
+      "cost_usd": 0.8966456,
+      "model": "claude-opus-5",
+      "error": null
+    },
+    {
+      "idx": 50,
+      "level": "easy",
+      "days": 7,
+      "delivered": true,
+      "commonsense_box": {
+        "is_reasonable_visiting_city": [
+          true,
+          null
+        ],
+        "is_valid_restaurants": [
+          true,
+          null
+        ],
+        "is_valid_attractions": [
+          true,
+          null
+        ],
+        "is_valid_accommodation": [
+          true,
+          null
+        ],
+        "is_valid_transportation": [
+          true,
+          null
+        ],
+        "is_valid_information_in_current_city": [
+          true,
+          null
+        ],
+        "is_valid_information_in_sandbox": [
+          true,
+          null
+        ],
+        "is_not_absent": [
+          true,
+          null
+        ]
+      },
+      "commonsense_pass": true,
+      "commonsense_passed": 8,
+      "commonsense_tested": 8,
+      "hard_box": {
+        "valid_cuisine": [
+          null,
+          null
+        ],
+        "valid_room_rule": [
+          null,
+          null
+        ],
+        "valid_transportation": [
+          null,
+          null
+        ],
+        "valid_room_type": [
+          null,
+          null
+        ],
+        "valid_cost": [
+          true,
+          null
+        ]
+      },
+      "hard_pass": true,
+      "hard_passed": 1,
+      "hard_tested": 1,
+      "final_pass": true,
+      "cost_usd": 1.9223329999999998,
+      "model": "claude-opus-5",
+      "error": null
+    }
+  ],
+  "summary": {
+    "n": 50,
+    "delivered": 50,
+    "final": 36,
+    "commonsense": 36,
+    "hard": 46,
+    "failures": {
+      "is_valid_transportation": 11,
+      "is_valid_information_in_current_city": 2,
+      "is_valid_information_in_sandbox": 4,
+      "is_reasonable_visiting_city": 4
+    },
+    "only_failure": {
+      "is_valid_transportation": 6,
+      "is_reasonable_visiting_city": 1,
+      "is_valid_information_in_sandbox": 2
+    },
+    "cost_usd": 54.2519238
+  }
+}

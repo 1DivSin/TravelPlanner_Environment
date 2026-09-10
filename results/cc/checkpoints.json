@@ -1,0 +1,19 @@
+{
+  "50": {
+    "status": "scored",
+    "score_file": "scores-50.json",
+    "note": "An earlier evaluator attempt failed because of the local Hugging Face cache permission; the final checkpoint file is the successful retry."
+  },
+  "100": {
+    "status": "not_reached",
+    "successful_queries": 53
+  },
+  "150": {
+    "status": "not_reached",
+    "successful_queries": 53
+  },
+  "180": {
+    "status": "not_reached",
+    "successful_queries": 53
+  }
+}
